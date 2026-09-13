@@ -1,0 +1,14 @@
+# CyberEnterPriseR3
+ Bộ cài phần mềm CyberEnterPrise R3 thuộc sở hữu của CÔNG TY CỔ PHẦN PHẦN MỀM QUẢN TRỊ DOANH NGHIỆP
+ 
+HotLine: 1900.54.54.34
+
+Email: Sales@cybersoft.com.vn
+
+Andress: Tầng 5, Tòa Nhà Viện Công Nghệ, Số 25 Vũ Ngọc Phan, Láng Hạ, Đống Đa, Hà Nội
+
+Website: https://cybersoft.com.vn/
+
+Demo: https://cyberenterprise.cybersoft.com.vn/
+
+https://private-user-images.githubusercontent.com/25147280/379984050-a01e8e5f-6354-445f-be96-0e5f7d67adce.mp4?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3Mjk4MjEzMTksIm5iZiI6MTcyOTgyMTAxOSwicGF0aCI6Ii8yNTE0NzI4MC8zNzk5ODQwNTAtYTAxZThlNWYtNjM1NC00NDVmLWJlOTYtMGU1ZjdkNjdhZGNlLm1wND9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDEwMjUlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQxMDI1VDAxNTAxOVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTg3MmQ4ZTdkYjZlNjk3OTUzMDVjYjgxMDZjNzZhODMzNjcwZDYxZGM0ODI5ZTRmODg2NWM2Yzk3MDlkODM3ODQmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.4XV6c9u3H4M7WC7slZQUDVFbEsFCXiTYvXC8-_3uCUU
