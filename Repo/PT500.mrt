@@ -6,33 +6,41 @@
     <DataSources isList="true" count="2">
       <Table0 Ref="2" type="DataTableSource" isKey="true">
         <Alias>Table0</Alias>
-        <Columns isList="true" count="32">
-          <value>ma_dvcs,System.String</value>
-          <value>stt_rec,System.String</value>
-          <value>ma_ct,System.String</value>
+        <Columns isList="true" count="40">
+          <value>Ma_Dvcs,System.String</value>
+          <value>Stt_Rec,System.String</value>
+          <value>Ma_Ct,System.String</value>
           <value>Ma_Post,System.String</value>
-          <value>ma_gd,System.String</value>
-          <value>MA_QUYEN,System.String</value>
-          <value>ngay_ct,System.DateTime</value>
-          <value>ngay_lct,System.DateTime</value>
-          <value>so_ct,System.String</value>
-          <value>so_lo,System.String</value>
-          <value>ngay_lo,System.DateTime</value>
-          <value>ma_kh,System.String</value>
-          <value>ong_ba,System.String</value>
+          <value>Ma_GD,System.String</value>
+          <value>Lenh_Ro,System.String</value>
+          <value>Ma_Xe,System.String</value>
+          <value>Ma_Quyen,System.String</value>
+          <value>Ngay_Ct,System.DateTime</value>
+          <value>Gio_Nx,System.String</value>
+          <value>Ngay_Lct,System.DateTime</value>
+          <value>So_Ct,System.String</value>
+          <value>Ma_TTCP_H,System.String</value>
+          <value>So_Lo,System.String</value>
+          <value>Ngay_Lo,System.DateTime</value>
+          <value>Ma_TT,System.String</value>
+          <value>Loai_Thu,System.String</value>
+          <value>Ma_Kh,System.String</value>
+          <value>Ma_Kh_N,System.String</value>
           <value>Dia_Chi,System.String</value>
-          <value>dien_giai,System.String</value>
-          <value>tk,System.String</value>
-          <value>ma_nt,System.String</value>
-          <value>ty_gia,System.Decimal</value>
-          <value>t_tien_nt,System.Decimal</value>
-          <value>t_tien,System.Decimal</value>
-          <value>t_thue_nt,System.Decimal</value>
-          <value>t_thue,System.Decimal</value>
-          <value>t_tt_nt,System.Decimal</value>
-          <value>t_tt,System.Decimal</value>
-          <value>user_id,System.Decimal</value>
-          <value>ten_kh,System.String</value>
+          <value>Ong_Ba,System.String</value>
+          <value>Dien_Giai,System.String</value>
+          <value>Tk,System.String</value>
+          <value>Ma_NT,System.String</value>
+          <value>Ty_Gia,System.Decimal</value>
+          <value>T_Tien_NT,System.Decimal</value>
+          <value>T_Tien,System.Decimal</value>
+          <value>T_Thue_NT,System.Decimal</value>
+          <value>T_Thue,System.Decimal</value>
+          <value>T_TT_NT,System.Decimal</value>
+          <value>T_TT,System.Decimal</value>
+          <value>NonVat,System.Decimal</value>
+          <value>User_Id,System.Decimal</value>
+          <value>Ten_Kh,System.String</value>
           <value>Bang_Chu,System.String</value>
           <value>DsTk,System.String</value>
           <value>DsPS,System.String</value>
@@ -46,51 +54,39 @@
       </Table0>
       <Table1 Ref="3" type="DataTableSource" isKey="true">
         <Alias>Table1</Alias>
-        <Columns isList="true" count="44">
+        <Columns isList="true" count="32">
           <value>Bold,System.String</value>
-          <value>stt_rec,System.String</value>
-          <value>stt_rec0,System.String</value>
-          <value>ma_ct,System.String</value>
-          <value>ngay_ct,System.DateTime</value>
-          <value>so_ct,System.String</value>
-          <value>dien_giaii,System.String</value>
-          <value>tk_i,System.String</value>
-          <value>Ma_TT,System.String</value>
-          <value>tien_nt,System.Decimal</value>
-          <value>tien,System.Decimal</value>
-          <value>So_HD,System.String</value>
-          <value>Ngay_HD,System.DateTime</value>
-          <value>Stt_Rec_HD,System.String</value>
-          <value>Tien_HD_NT,System.Decimal</value>
-          <value>Tien_HD,System.Decimal</value>
-          <value>Ty_Gia_HT,System.Decimal</value>
-          <value>Da_PB,System.Decimal</value>
-          <value>Da_Pb_NT,System.Decimal</value>
-          <value>Cl_PB,System.Decimal</value>
-          <value>Cl_Pb_NT,System.Decimal</value>
-          <value>ma_kh_i,System.String</value>
-          <value>ma_vv_i,System.String</value>
-          <value>ma_phi_i,System.String</value>
-          <value>ma_hd_i,System.String</value>
-          <value>ma_sp_i,System.String</value>
-          <value>Ma_TTLN_I,System.String</value>
-          <value>Ma_TTCP_I,System.String</value>
-          <value>Ma_Bp_I,System.String</value>
-          <value>Ma_HS_I,System.String</value>
+          <value>Stt_Rec,System.String</value>
+          <value>Stt_Rec0,System.String</value>
+          <value>Ma_Ct,System.String</value>
+          <value>Ngay_Ct,System.DateTime</value>
+          <value>So_Ct,System.String</value>
+          <value>Dien_Giaii,System.String</value>
+          <value>Tk_i,System.String</value>
+          <value>So_So,System.String</value>
+          <value>So_Ro,System.String</value>
+          <value>So_Po,System.String</value>
+          <value>Tien_Nt,System.Decimal</value>
+          <value>Tien,System.Decimal</value>
+          <value>Ma_Kh_i,System.String</value>
+          <value>Ma_Vv_i,System.String</value>
+          <value>Ma_HD_i,System.String</value>
+          <value>Ma_Phi_i,System.String</value>
+          <value>Ma_SP_i,System.String</value>
           <value>Ma_Ku_I,System.String</value>
-          <value>Ma_Cd_I,System.String</value>
-          <value>sl_td_i,System.Decimal</value>
-          <value>Ma_TD1_I,System.String</value>
-          <value>Ma_TD2_I,System.String</value>
-          <value>Ma_TD3_I,System.String</value>
-          <value>Ma_TD4_I,System.String</value>
-          <value>Ma_Td5_i,System.String</value>
+          <value>Ma_TTLN_i,System.String</value>
+          <value>Ma_TTCP_i,System.String</value>
+          <value>Ma_BP_i,System.String</value>
+          <value>Ma_Hs_I,System.String</value>
+          <value>Ma_CD_I,System.String</value>
+          <value>Ma_TD1_i,System.String</value>
+          <value>Ma_TD2_i,System.String</value>
+          <value>Ma_TD3_i,System.String</value>
+          <value>Ma_TD4_i,System.String</value>
+          <value>Ma_TD5_i,System.String</value>
+          <value>SL_TD_i,System.Decimal</value>
           <value>Ma_Db_I,System.String</value>
-          <value>So_SO,System.String</value>
-          <value>So_RO,System.String</value>
-          <value>So_PO,System.String</value>
-          <value>So_VT,System.String</value>
-          <value>ten_kh_I,System.String</value>
+          <value>Ten_Kh_i,System.String</value>
         </Columns>
         <Dictionary isRef="1" />
         <Name>Table1</Name>
@@ -99,20 +95,25 @@
     </DataSources>
     <Relations isList="true" count="0" />
     <Report isRef="0" />
-    <Variables isList="true" count="13">
-      <value>,M_DIA_CHI,M_DIA_CHI,System.String,P102A2_x002C__x0020_Ngõ_x0020_102_x0020_Nguyễn_x0020_Huy_x0020_Tưởng_x002C__x0020_Thanh_x0020_Xuân_x0020_Trung_x002C__x0020_Thanh_x0020_Xuân_x002C__x0020_Hà_x0020_Nội,False,False</value>
-      <value>,M_DIEN_THOAI,M_DIEN_THOAI,System.String,_x0030_903.296.818,False,False</value>
-      <value>,M_EMAIL,M_EMAIL,System.String,,False,False</value>
-      <value>,M_FAX,M_FAX,System.String,_x0030_4.3996.4617,False,False</value>
-      <value>,M_MA_SO_THUE,M_MA_SO_THUE,System.String,_x0030_101407560,False,False</value>
-      <value>,M_TEN_CTY,M_TEN_CTY,System.String,CÔNG_x0020_TY_x0020_TNHH_x0020_LÊ_x0020_XUÂN,False,False</value>
-      <value>,M_TEN_TCTY,M_TEN_TCTY,System.String,UBND_x0020_THÀNH_x0020_PHỐ_x0020_HÀ_x0020_NỘI,False,False</value>
-      <value>,M_TEN_GD,M_TEN_GD,System.String,Nguyễn_x0020_Quang_x0020_Hưng,False,False</value>
-      <value>,M_TEN_KTT,M_TEN_KTT,System.String,Nguyễn_x0020_Thị_x0020_Loan,False,False</value>
-      <value>,M_WEBSITE,M_WEBSITE,System.String,,False,False</value>
-      <value>,M_TEN_NLB,M_TEN_NLB,System.String,Admin:_x0020_Hotline_x0020_1900.54.54.34111,False,False</value>
-      <value>,M_TITLE1,M_TITLE1,System.String,DANH_x0020_MỤC_x0020_NHÓM_x0020_LOẠI_x0020_HÌNH_x0020_BẢO_x0020_HIỂM,False,False</value>
-      <value>,M_TITLE2,M_TITLE2,System.String,DANH_x0020_MỤC_x0020_NHÓM_x0020_LOẠI_x0020_HÌNH_x0020_BẢO_x0020_HIỂM,False,False</value>
+    <Resources isList="true" count="0" />
+    <Variables isList="true" count="17">
+      <value>,M_DIA_CHI,M_DIA_CHI,,System.String,P102A2_x002C__x0020_Ngõ_x0020_102_x0020_Nguyễn_x0020_Huy_x0020_Tưởng_x002C__x0020_Thanh_x0020_Xuân_x0020_Trung_x002C__x0020_Thanh_x0020_Xuân_x002C__x0020_Hà_x0020_Nội,False,False,False,False</value>
+      <value>,M_DIEN_THOAI,M_DIEN_THOAI,,System.String,_x0030_903.296.818,False,False,False,False</value>
+      <value>,M_EMAIL,M_EMAIL,,System.String,,False,False,False,False</value>
+      <value>,M_FAX,M_FAX,,System.String,_x0030_4.3996.4617,False,False,False,False</value>
+      <value>,M_MA_SO_THUE,M_MA_SO_THUE,,System.String,_x0030_101407560,False,False,False,False</value>
+      <value>,M_TEN_CTY,M_TEN_CTY,,System.String,CÔNG_x0020_TY_x0020_TNHH_x0020_LÊ_x0020_XUÂN,False,False,False,False</value>
+      <value>,M_TEN_TCTY,M_TEN_TCTY,,System.String,UBND_x0020_THÀNH_x0020_PHỐ_x0020_HÀ_x0020_NỘI,False,False,False,False</value>
+      <value>,M_TEN_GD,M_TEN_GD,,System.String,Nguyễn_x0020_Quang_x0020_Hưng,False,False,False,False</value>
+      <value>,M_TEN_KTT,M_TEN_KTT,,System.String,Nguyễn_x0020_Thị_x0020_Loan,False,False,False,False</value>
+      <value>,M_WEBSITE,M_WEBSITE,,System.String,,False,False,False,False</value>
+      <value>,M_TEN_NLB,M_TEN_NLB,,System.String,Admin:_x0020_Hotline_x0020_1900.54.54.34111,False,False,False,False</value>
+      <value>,M_TITLE1,M_TITLE1,,System.String,DANH_x0020_MỤC_x0020_NHÓM_x0020_LOẠI_x0020_HÌNH_x0020_BẢO_x0020_HIỂM,False,False,False,False</value>
+      <value>,M_TITLE2,M_TITLE2,,System.String,DANH_x0020_MỤC_x0020_NHÓM_x0020_LOẠI_x0020_HÌNH_x0020_BẢO_x0020_HIỂM,False,False,False,False</value>
+      <value>,SO_LIEN,SO_LIEN,,System.String,_x0030_,False,False,False,False</value>
+      <value>,SO_CT_GOC,SO_CT_GOC,,System.String,,False,False,False,False</value>
+      <value>,STT_SO_LIEN,STT_SO_LIEN,,System.String,_x0031_,False,False,False,False</value>
+      <value>,STT_REC,STT_REC,,System.String,D000000043PT5,False,False,False,False</value>
     </Variables>
   </Dictionary>
   <EngineVersion>EngineV2</EngineVersion>
@@ -125,7 +126,7 @@
       <Components isList="true" count="3">
         <PageFooterBand1 Ref="5" type="PageFooterBand" isKey="true">
           <Brush>Transparent</Brush>
-          <ClientRectangle>0,10.99,7.77,0.2</ClientRectangle>
+          <ClientRectangle>0,15.47,7.77,0.2</ClientRectangle>
           <Components isList="true" count="5">
             <Text90 Ref="6" type="Text" isKey="true">
               <Brush>Transparent</Brush>
@@ -247,7 +248,7 @@
               <Parent isRef="13" />
               <Text>{M_DIA_CHI}</Text>
               <TextBrush>Black</TextBrush>
-              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+              <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
             </TxtTiTle_M_DIA_CHI>
             <Text19 Ref="16" type="Text" isKey="true">
               <Brush>Transparent</Brush>
@@ -351,7 +352,7 @@
               <Parent isRef="13" />
               <Text>{IIF(Table0.ong_ba="",Table0.ma_kh +"-"+Table0.ten_kh,Table0.ong_ba)}</Text>
               <TextBrush>Black</TextBrush>
-              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+              <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
               <Type>Expression</Type>
             </Text32>
             <Text33 Ref="23" type="Text" isKey="true">
@@ -367,7 +368,7 @@
               <Parent isRef="13" />
               <Text>{Table0.Dia_Chi}</Text>
               <TextBrush>Black</TextBrush>
-              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+              <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
               <Type>DataColumn</Type>
             </Text33>
             <Text34 Ref="24" type="Text" isKey="true">
@@ -389,14 +390,14 @@
                 <NegativePattern>1</NegativePattern>
                 <UseLocalSetting>False</UseLocalSetting>
               </TextFormat>
-              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+              <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
               <Type>DataColumn</Type>
             </Text34>
             <Text36 Ref="26" type="Text" isKey="true">
               <Brush>Transparent</Brush>
-              <ClientRectangle>4.6,4,2.5,0.2</ClientRectangle>
+              <ClientRectangle>4.6,4,2.1,0.2</ClientRectangle>
               <Conditions isList="true" count="0" />
-              <Font>Times New Roman,11,Bold</Font>
+              <Font>Times New Roman,10,Bold</Font>
               <Guid>1086aadfb8cc405da934cc0c667e23ac</Guid>
               <HorAlignment>Center</HorAlignment>
               <Margins>0,0,0.01,0</Margins>
@@ -411,7 +412,7 @@
               <Brush>Transparent</Brush>
               <ClientRectangle>0.3,4,1.5,0.2</ClientRectangle>
               <Conditions isList="true" count="0" />
-              <Font>Times New Roman,11,Bold</Font>
+              <Font>Times New Roman,10,Bold</Font>
               <Guid>b0586d5080a847589414bc505e09d6d7</Guid>
               <HorAlignment>Center</HorAlignment>
               <Margins>0,0,0.01,0</Margins>
@@ -443,7 +444,7 @@
               <Brush>Transparent</Brush>
               <ClientRectangle>1.8,4,1.5,0.2</ClientRectangle>
               <Conditions isList="true" count="0" />
-              <Font>Times New Roman,11,Bold</Font>
+              <Font>Times New Roman,10,Bold</Font>
               <Guid>6168c646e4f94981b964da9b1eb27e3a</Guid>
               <HorAlignment>Center</HorAlignment>
               <Margins>0,0,0.01,0</Margins>
@@ -520,7 +521,7 @@
                 <NegativePattern>1</NegativePattern>
                 <UseLocalSetting>False</UseLocalSetting>
               </TextFormat>
-              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+              <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
               <Type>DataColumn</Type>
             </Text73>
             <Text74 Ref="35" type="Text" isKey="true">
@@ -536,7 +537,7 @@
               <Parent isRef="13" />
               <Text>{Table0.Bang_Chu}</Text>
               <TextBrush>Black</TextBrush>
-              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+              <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
               <Type>DataColumn</Type>
             </Text74>
             <Text6 Ref="36" type="Text" isKey="true">
@@ -552,7 +553,7 @@
               <Parent isRef="13" />
               <Text>{Table0.DsTk}</Text>
               <TextBrush>Black</TextBrush>
-              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+              <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
               <Type>DataColumn</Type>
             </Text6>
             <Text8 Ref="37" type="Text" isKey="true">
@@ -575,7 +576,7 @@
                 <NegativePattern>1</NegativePattern>
                 <UseLocalSetting>False</UseLocalSetting>
               </TextFormat>
-              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+              <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
               <Type>DataColumn</Type>
             </Text8>
             <Text9 Ref="39" type="Text" isKey="true">
@@ -591,7 +592,7 @@
               <Parent isRef="13" />
               <Text>{Table0.dien_giai}</Text>
               <TextBrush>Black</TextBrush>
-              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+              <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
               <Type>DataColumn</Type>
             </Text9>
             <Text75 Ref="40" type="Text" isKey="true">
@@ -882,7 +883,7 @@
                 <NegativePattern>1</NegativePattern>
                 <UseLocalSetting>False</UseLocalSetting>
               </TextFormat>
-              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+              <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
               <Type>DataColumn</Type>
             </Text94>
             <Text1 Ref="60" type="Text" isKey="true">
@@ -985,7 +986,7 @@
               <Parent isRef="13" />
               <Text>{Table0.so_ct}</Text>
               <TextBrush>Black</TextBrush>
-              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+              <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
               <Type>DataColumn</Type>
             </Text100>
             <Text101 Ref="68" type="Text" isKey="true">
@@ -1015,7 +1016,7 @@
               <Parent isRef="13" />
               <Text>{Table0.tk}</Text>
               <TextBrush>Black</TextBrush>
-              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+              <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
               <Type>DataColumn</Type>
             </Text102>
             <Text17 Ref="70" type="Text" isKey="true">
@@ -1031,7 +1032,7 @@
               <Parent isRef="13" />
               <Text>{Table0.Mau_In}</Text>
               <TextBrush>Black</TextBrush>
-              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+              <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
               <VertAlignment>Center</VertAlignment>
             </Text17>
           </Components>
@@ -1070,7 +1071,7 @@
               <Parent isRef="71" />
               <Text>{M_DIA_CHI}</Text>
               <TextBrush>Black</TextBrush>
-              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+              <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
             </Text3>
             <Text4 Ref="74" type="Text" isKey="true">
               <Brush>Transparent</Brush>
@@ -1174,7 +1175,7 @@
               <Parent isRef="71" />
               <Text>{IIF(Table0.ong_ba="",Table0.ma_kh +"-"+Table0.ten_kh,Table0.ong_ba)}</Text>
               <TextBrush>Black</TextBrush>
-              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+              <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
               <Type>Expression</Type>
             </Text13>
             <Text14 Ref="81" type="Text" isKey="true">
@@ -1190,7 +1191,7 @@
               <Parent isRef="71" />
               <Text>{Table0.Dia_Chi}</Text>
               <TextBrush>Black</TextBrush>
-              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+              <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
               <Type>DataColumn</Type>
             </Text14>
             <Text15 Ref="82" type="Text" isKey="true">
@@ -1212,14 +1213,14 @@
                 <NegativePattern>1</NegativePattern>
                 <UseLocalSetting>False</UseLocalSetting>
               </TextFormat>
-              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+              <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
               <Type>DataColumn</Type>
             </Text15>
             <Text16 Ref="84" type="Text" isKey="true">
               <Brush>Transparent</Brush>
-              <ClientRectangle>4.6,4,2.5,0.2</ClientRectangle>
+              <ClientRectangle>4.6,4,2.1,0.2</ClientRectangle>
               <Conditions isList="true" count="0" />
-              <Font>Times New Roman,11,Bold</Font>
+              <Font>Times New Roman,10,Bold</Font>
               <Guid>016134acccb54f52b364642284d2f179</Guid>
               <HorAlignment>Center</HorAlignment>
               <Margins>0,0,0.01,0</Margins>
@@ -1234,7 +1235,7 @@
               <Brush>Transparent</Brush>
               <ClientRectangle>0.3,4,1.5,0.2</ClientRectangle>
               <Conditions isList="true" count="0" />
-              <Font>Times New Roman,11,Bold</Font>
+              <Font>Times New Roman,10,Bold</Font>
               <Guid>47ada0040c7b49dd96e9a97ee6a18494</Guid>
               <HorAlignment>Center</HorAlignment>
               <Margins>0,0,0.01,0</Margins>
@@ -1266,7 +1267,7 @@
               <Brush>Transparent</Brush>
               <ClientRectangle>1.8,4,1.5,0.2</ClientRectangle>
               <Conditions isList="true" count="0" />
-              <Font>Times New Roman,11,Bold</Font>
+              <Font>Times New Roman,10,Bold</Font>
               <Guid>f1a05f40500a4408a05e4ef16e2ee3cc</Guid>
               <HorAlignment>Center</HorAlignment>
               <Margins>0,0,0.01,0</Margins>
@@ -1343,7 +1344,7 @@
                 <NegativePattern>1</NegativePattern>
                 <UseLocalSetting>False</UseLocalSetting>
               </TextFormat>
-              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+              <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
               <Type>DataColumn</Type>
             </Text28>
             <Text31 Ref="93" type="Text" isKey="true">
@@ -1359,7 +1360,7 @@
               <Parent isRef="71" />
               <Text>{Table0.Bang_Chu}</Text>
               <TextBrush>Black</TextBrush>
-              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+              <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
               <Type>DataColumn</Type>
             </Text31>
             <Text50 Ref="94" type="Text" isKey="true">
@@ -1375,7 +1376,7 @@
               <Parent isRef="71" />
               <Text>{Table0.DsTk}</Text>
               <TextBrush>Black</TextBrush>
-              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+              <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
               <Type>DataColumn</Type>
             </Text50>
             <Text51 Ref="95" type="Text" isKey="true">
@@ -1398,7 +1399,7 @@
                 <NegativePattern>1</NegativePattern>
                 <UseLocalSetting>False</UseLocalSetting>
               </TextFormat>
-              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+              <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
               <Type>DataColumn</Type>
             </Text51>
             <Text52 Ref="97" type="Text" isKey="true">
@@ -1414,7 +1415,7 @@
               <Parent isRef="71" />
               <Text>{Table0.dien_giai}</Text>
               <TextBrush>Black</TextBrush>
-              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+              <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
               <Type>DataColumn</Type>
             </Text52>
             <Text53 Ref="98" type="Text" isKey="true">
@@ -1705,7 +1706,7 @@
                 <NegativePattern>1</NegativePattern>
                 <UseLocalSetting>False</UseLocalSetting>
               </TextFormat>
-              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+              <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
               <Type>DataColumn</Type>
             </Text69>
             <Text70 Ref="118" type="Text" isKey="true">
@@ -1794,7 +1795,7 @@
               <Parent isRef="71" />
               <Text>{Table0.so_ct}</Text>
               <TextBrush>Black</TextBrush>
-              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+              <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
               <Type>DataColumn</Type>
             </Text84>
             <Text85 Ref="124" type="Text" isKey="true">
@@ -1824,7 +1825,7 @@
               <Parent isRef="71" />
               <Text>{Table0.tk}</Text>
               <TextBrush>Black</TextBrush>
-              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+              <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
               <Type>DataColumn</Type>
             </Text88>
             <Text89 Ref="126" type="Text" isKey="true">
@@ -1841,7 +1842,7 @@
               <Parent isRef="71" />
               <Text>{Table0.Mau_In}</Text>
               <TextBrush>Black</TextBrush>
-              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+              <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
               <VertAlignment>Center</VertAlignment>
             </Text89>
             <Text78 Ref="127" type="Text" isKey="true">
@@ -1894,7 +1895,7 @@
       <Report isRef="0" />
       <Watermark Ref="132" type="Stimulsoft.Report.Components.StiWatermark" isKey="true">
         <Font>Arial,100</Font>
-        <Text>CYBERSOFT</Text>
+        <ShowBehind>True</ShowBehind>
         <TextBrush>[50:0:0:0]</TextBrush>
       </Watermark>
     </Page1>
@@ -1911,13 +1912,14 @@
     <value>Stimulsoft.Report.Dll</value>
   </ReferencedAssemblies>
   <ReportAlias>Report</ReportAlias>
-  <ReportChanged>3/17/2017 8:36:41 AM</ReportChanged>
+  <ReportChanged>9/18/2026 9:35:25 PM</ReportChanged>
   <ReportCreated>1/14/2017 9:46:41 AM</ReportCreated>
-  <ReportFile>E:\CyberAppGolden_CTY_20170125\Repo\PT100.mrt</ReportFile>
-  <ReportGuid>a6432cb5d7604de7974453dbd3973896</ReportGuid>
+  <ReportFile>D:\1.CongViec\1.Cybersoft\1.Winform\1.BanGolive\2.FolderPhanMem\VINFAST_OMODA_QuangNgai\Repo\PT500.mrt</ReportFile>
+  <ReportGuid>afe84a3b3fd84944a43d6f2cf3d37ae6</ReportGuid>
+  <ReportImage isNull="true" />
   <ReportName>Report</ReportName>
   <ReportUnit>Inches</ReportUnit>
-  <ReportVersion>2011.3.1200</ReportVersion>
+  <ReportVersion>2017.1.11.0</ReportVersion>
   <Script>Imports System
 Imports System.Drawing
 Imports System.Windows.Forms
@@ -1938,7 +1940,7 @@ Namespace Reports
         End Sub
 
         #Region "StiReport Designer generated code - do not modify"
-        #End Region 'StiReport Designer generated code - do not modify
+		#End Region 'StiReport Designer generated code - do not modify
     End Class
 End Namespace
 </Script>
@@ -1951,7 +1953,6 @@ End Namespace
       <AllowUseTextBrush>False</AllowUseTextBrush>
       <Brush>[240:237:232]</Brush>
       <Conditions isList="true" count="0" />
-      <Description />
       <Font>Arial,8</Font>
       <Name>StyleData1</Name>
       <TextBrush>Blue</TextBrush>

@@ -383,7 +383,7 @@
       <Components isList="true" count="18">
         <PageFooterBand1 Ref="6" type="PageFooterBand" isKey="true">
           <Brush>Transparent</Brush>
-          <ClientRectangle>0,14.41,6.69,0.3</ClientRectangle>
+          <ClientRectangle>0,16.52,6.69,0.3</ClientRectangle>
           <Components isList="true" count="3">
             <Text94 Ref="7" type="Text" isKey="true">
               <Brush>White</Brush>
@@ -1893,7 +1893,6 @@ Các thông số kỹ thuật: Theo tiêu chuẩn của Nhà sản xuất &lt;br
               <VertAlignment>Center</VertAlignment>
             </Text79>
             <Text8 Ref="127" type="Text" isKey="true">
-              <AllowHtmlTags>True</AllowHtmlTags>
               <Brush>Transparent</Brush>
               <CanBreak>True</CanBreak>
               <CanGrow>True</CanGrow>
@@ -4038,10 +4037,10 @@ Sau thời hạn nêu tại Điều 3.2.(a), nếu Bên Bán không nhận đư�
     <value>Stimulsoft.Report.Dll</value>
   </ReferencedAssemblies>
   <ReportAlias>Report</ReportAlias>
-  <ReportChanged>7/30/2026 8:30:05 AM</ReportChanged>
+  <ReportChanged>9/17/2026 3:45:24 PM</ReportChanged>
   <ReportCreated>1/11/2017 3:48:09 PM</ReportCreated>
-  <ReportFile>D:\Cyber\VINFAST_OMODA_QuangNgai\Repo\HDX10_VF.mrt</ReportFile>
-  <ReportGuid>07af7257ac7c4cb3a15c55663138a26d</ReportGuid>
+  <ReportFile>D:\Software\VINFAST_OMODA_QuangNgai\VINFAST_OMODA_QuangNgai\Repo\HDX10_VF.mrt</ReportFile>
+  <ReportGuid>722196d7dd76457792e7c95507ba862e</ReportGuid>
   <ReportImage isNull="true" />
   <ReportName>Report</ReportName>
   <ReportUnit>Inches</ReportUnit>

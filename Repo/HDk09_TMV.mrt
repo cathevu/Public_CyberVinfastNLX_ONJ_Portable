@@ -6,7 +6,7 @@
     <DataSources isList="true" count="3">
       <Table0 Ref="2" type="DataTableSource" isKey="true">
         <Alias>Table0</Alias>
-        <Columns isList="true" count="186">
+        <Columns isList="true" count="191">
           <value>Ma_Dvcs,System.String</value>
           <value>Stt_Rec,System.String</value>
           <value>Ma_GD,System.String</value>
@@ -118,6 +118,8 @@
           <value>Email_Cvdv,System.String</value>
           <value>ImgQR,System.String</value>
           <value>PT_PIN,System.Decimal</value>
+          <value>TK_NH,System.String</value>
+          <value>Ten_NH,System.String</value>
           <value>Ngay_Gx,System.DateTime</value>
           <value>So_Km,System.Decimal</value>
           <value>So_Km_Cu,System.Decimal</value>
@@ -172,6 +174,7 @@
           <value>Thu,System.Decimal</value>
           <value>DT,System.Decimal</value>
           <value>Khong,System.Decimal</value>
+          <value>Ma_ChienDich,System.String</value>
           <value>T_Thue,System.Decimal</value>
           <value>T_Hang,System.Decimal</value>
           <value>T_CK,System.Decimal</value>
@@ -183,16 +186,18 @@
           <value>T_Tien_DT,System.Decimal</value>
           <value>Gio_vao,System.String</value>
           <value>Ngay_Vao,System.DateTime</value>
-          <value>Tk_NH,System.String</value>
-          <value>Ten_NH,System.String</value>
+          <value>Tk_NH1,System.String</value>
+          <value>Ten_NH1,System.String</value>
           <value>M_Title,System.String</value>
           <value>M_Title_lan_BS,System.String</value>
           <value>Ten_TT,System.String</value>
           <value>DT_CVDV,System.String</value>
           <value>Thue_Suat,System.Decimal</value>
           <value>Bang_Chu,System.String</value>
+          <value>Bang_Chu_T_C,System.String</value>
           <value>Ten_TTCP_H,System.String</value>
           <value>Dia_Chi_TTCP,System.String</value>
+          <value>Noi_Dung_CK,System.String</value>
         </Columns>
         <Dictionary isRef="1" />
         <Name>Table0</Name>
@@ -768,9 +773,7 @@
               <Text>{Table2.So_Luong}</Text>
               <TextBrush>Black</TextBrush>
               <TextFormat Ref="48" type="NumberFormat" isKey="true">
-                <DecimalDigits>0</DecimalDigits>
-                <DecimalSeparator> </DecimalSeparator>
-                <GroupSeparator> </GroupSeparator>
+                <GroupSeparator>,</GroupSeparator>
                 <NegativePattern>1</NegativePattern>
                 <UseLocalSetting>False</UseLocalSetting>
               </TextFormat>
@@ -1174,10 +1177,10 @@
     <value>Stimulsoft.Report.Dll</value>
   </ReferencedAssemblies>
   <ReportAlias>Bằng chữ :</ReportAlias>
-  <ReportChanged>8/4/2026 2:37:43 PM</ReportChanged>
+  <ReportChanged>9/15/2026 3:53:19 PM</ReportChanged>
   <ReportCreated>1/13/2017 10:44:54 AM</ReportCreated>
-  <ReportFile>D:\Cyber\VINFAST_OMODA_QuangNgai\Repo\HDK09_TMV.mrt</ReportFile>
-  <ReportGuid>28472ad16d6f44d88681ed5e2279131c</ReportGuid>
+  <ReportFile>D:\1.CongViec\1.Cybersoft\1.Winform\1.BanGolive\2.FolderPhanMem\VINFAST_OMODA_QuangNgai\Repo\HDK09_TMV.mrt</ReportFile>
+  <ReportGuid>aaedaf2323734ad5be979dd1f52ea55d</ReportGuid>
   <ReportImage isNull="true" />
   <ReportName>Bằng chữ :</ReportName>
   <ReportUnit>Inches</ReportUnit>

@@ -6,7 +6,7 @@
     <DataSources isList="true" count="3">
       <Table0 Ref="2" type="DataTableSource" isKey="true">
         <Alias>Table0</Alias>
-        <Columns isList="true" count="186">
+        <Columns isList="true" count="191">
           <value>Ma_Dvcs,System.String</value>
           <value>Stt_Rec,System.String</value>
           <value>Ma_GD,System.String</value>
@@ -118,6 +118,8 @@
           <value>Email_Cvdv,System.String</value>
           <value>ImgQR,System.String</value>
           <value>PT_PIN,System.Decimal</value>
+          <value>TK_NH,System.String</value>
+          <value>Ten_NH,System.String</value>
           <value>Ngay_Gx,System.DateTime</value>
           <value>So_Km,System.Decimal</value>
           <value>So_Km_Cu,System.Decimal</value>
@@ -172,6 +174,7 @@
           <value>Thu,System.Decimal</value>
           <value>DT,System.Decimal</value>
           <value>Khong,System.Decimal</value>
+          <value>Ma_ChienDich,System.String</value>
           <value>T_Thue,System.Decimal</value>
           <value>T_Hang,System.Decimal</value>
           <value>T_CK,System.Decimal</value>
@@ -183,16 +186,18 @@
           <value>T_Tien_DT,System.Decimal</value>
           <value>Gio_vao,System.String</value>
           <value>Ngay_Vao,System.DateTime</value>
-          <value>Tk_NH,System.String</value>
-          <value>Ten_NH,System.String</value>
+          <value>Tk_NH1,System.String</value>
+          <value>Ten_NH1,System.String</value>
           <value>M_Title,System.String</value>
           <value>M_Title_lan_BS,System.String</value>
           <value>Ten_TT,System.String</value>
           <value>DT_CVDV,System.String</value>
           <value>Thue_Suat,System.Decimal</value>
           <value>Bang_Chu,System.String</value>
+          <value>Bang_Chu_T_C,System.String</value>
           <value>Ten_TTCP_H,System.String</value>
           <value>Dia_Chi_TTCP,System.String</value>
+          <value>Noi_Dung_CK,System.String</value>
         </Columns>
         <Dictionary isRef="1" />
         <Name>Table0</Name>
@@ -303,11 +308,11 @@
       <Components isList="true" count="80">
         <ReportTitleBand2 Ref="6" type="ReportTitleBand" isKey="true">
           <Brush>Transparent</Brush>
-          <ClientRectangle>0,0.2,7.38,2.8</ClientRectangle>
+          <ClientRectangle>0,0.2,7.38,2.4</ClientRectangle>
           <Components isList="true" count="33">
             <Text31 Ref="7" type="Text" isKey="true">
               <Brush>Transparent</Brush>
-              <ClientRectangle>0.1,0.9,7.2,0.4</ClientRectangle>
+              <ClientRectangle>0.1,0.9,7.2,0.3</ClientRectangle>
               <Conditions isList="true" count="0" />
               <Font>Times New Roman,18,Bold</Font>
               <Guid>315b7ff2da23422984b8ed920d6d2958</Guid>
@@ -323,7 +328,7 @@
             </Text31>
             <Text32 Ref="8" type="Text" isKey="true">
               <Brush>Transparent</Brush>
-              <ClientRectangle>0.1,1.6,0.8,0.3</ClientRectangle>
+              <ClientRectangle>0.1,1.4,0.8,0.3</ClientRectangle>
               <Conditions isList="true" count="0" />
               <Font>Times New Roman,8,Bold</Font>
               <Guid>1954bc5968be4468bdd68727c942f511</Guid>
@@ -338,7 +343,7 @@
             </Text32>
             <Text33 Ref="9" type="Text" isKey="true">
               <Brush>Transparent</Brush>
-              <ClientRectangle>3.8,1.6,0.8,0.3</ClientRectangle>
+              <ClientRectangle>3.8,1.4,0.8,0.3</ClientRectangle>
               <Conditions isList="true" count="0" />
               <Font>Times New Roman,8,Bold</Font>
               <Guid>d5038132f7c24747976543cff0fb8461</Guid>
@@ -354,7 +359,7 @@
             <Text35 Ref="10" type="Text" isKey="true">
               <Brush>Transparent</Brush>
               <CanGrow>True</CanGrow>
-              <ClientRectangle>4.7,1.6,2.6,0.3</ClientRectangle>
+              <ClientRectangle>4.7,1.4,2.6,0.3</ClientRectangle>
               <Conditions isList="true" count="0" />
               <Font>Times New Roman,8,Bold</Font>
               <Guid>a0f33d7f8659424d8d4d4b27dc0133cb</Guid>
@@ -370,7 +375,7 @@
             </Text35>
             <Text36 Ref="11" type="Text" isKey="true">
               <Brush>Transparent</Brush>
-              <ClientRectangle>1,1.6,2.8,0.3</ClientRectangle>
+              <ClientRectangle>1,1.4,2.8,0.3</ClientRectangle>
               <Conditions isList="true" count="0" />
               <Font>Times New Roman,8,Bold</Font>
               <Guid>fe646c3728324875a948daf4da142131</Guid>
@@ -385,7 +390,7 @@
             </Text36>
             <Text37 Ref="12" type="Text" isKey="true">
               <Brush>Transparent</Brush>
-              <ClientRectangle>4.6,1.6,0.1,0.3</ClientRectangle>
+              <ClientRectangle>4.6,1.4,0.1,0.3</ClientRectangle>
               <Conditions isList="true" count="0" />
               <Font>Times New Roman,8,Bold</Font>
               <Guid>afcdd121250c4c66a1a7e2d2a0fa56d6</Guid>
@@ -401,7 +406,7 @@
             </Text37>
             <Text38 Ref="13" type="Text" isKey="true">
               <Brush>Transparent</Brush>
-              <ClientRectangle>0.9,1.6,0.1,0.3</ClientRectangle>
+              <ClientRectangle>0.9,1.4,0.1,0.3</ClientRectangle>
               <Conditions isList="true" count="0" />
               <Font>Times New Roman,8,Bold</Font>
               <Guid>cb2e830bfce64044b0a9ab8998a98506</Guid>
@@ -417,7 +422,7 @@
             </Text38>
             <Text39 Ref="14" type="Text" isKey="true">
               <Brush>Transparent</Brush>
-              <ClientRectangle>1.4,1.9,0.1,0.3</ClientRectangle>
+              <ClientRectangle>1.4,1.7,0.1,0.3</ClientRectangle>
               <Conditions isList="true" count="0" />
               <Font>Times New Roman,8,Bold</Font>
               <Guid>e5b92cd9abe74695ad96289e66c4dadb</Guid>
@@ -433,7 +438,7 @@
             </Text39>
             <Text40 Ref="15" type="Text" isKey="true">
               <Brush>Transparent</Brush>
-              <ClientRectangle>3.8,1.9,1,0.3</ClientRectangle>
+              <ClientRectangle>3.8,1.7,1,0.3</ClientRectangle>
               <Conditions isList="true" count="0" />
               <Font>Times New Roman,8,Bold</Font>
               <Guid>ecd0825cbf2e452c9bb4770fbb8158b7</Guid>
@@ -448,7 +453,7 @@
             </Text40>
             <Text41 Ref="16" type="Text" isKey="true">
               <Brush>Transparent</Brush>
-              <ClientRectangle>4.8,1.9,0.1,0.3</ClientRectangle>
+              <ClientRectangle>4.8,1.7,0.1,0.3</ClientRectangle>
               <Conditions isList="true" count="0" />
               <Font>Times New Roman,8,Bold</Font>
               <Guid>d98499fb39784143b449b0c1e6305a90</Guid>
@@ -464,7 +469,7 @@
             </Text41>
             <Text42 Ref="17" type="Text" isKey="true">
               <Brush>Transparent</Brush>
-              <ClientRectangle>3.8,2.2,0.7,0.4</ClientRectangle>
+              <ClientRectangle>3.8,2,0.7,0.4</ClientRectangle>
               <Conditions isList="true" count="0" />
               <Font>Times New Roman,8,Bold</Font>
               <Guid>de0ae2eb796549f893dc758610a9bda7</Guid>
@@ -479,7 +484,7 @@
             </Text42>
             <Text43 Ref="18" type="Text" isKey="true">
               <Brush>Transparent</Brush>
-              <ClientRectangle>4.5,2.2,0.1,0.4</ClientRectangle>
+              <ClientRectangle>4.5,2,0.1,0.4</ClientRectangle>
               <Conditions isList="true" count="0" />
               <Font>Times New Roman,8,Bold</Font>
               <Guid>f75031fbbffe449d8c722ab75b02f086</Guid>
@@ -509,7 +514,7 @@
             <Text44 Ref="20" type="Text" isKey="true">
               <Brush>Transparent</Brush>
               <CanGrow>True</CanGrow>
-              <ClientRectangle>1.5,1.9,2.3,0.3</ClientRectangle>
+              <ClientRectangle>1.5,1.7,2.3,0.3</ClientRectangle>
               <Conditions isList="true" count="0" />
               <Font>Times New Roman,8,Bold</Font>
               <Guid>361eed36f7054f628e3775f4fd07f24d</Guid>
@@ -526,7 +531,7 @@
             <Text45 Ref="21" type="Text" isKey="true">
               <Brush>Transparent</Brush>
               <CanGrow>True</CanGrow>
-              <ClientRectangle>4.9,1.9,2.4,0.3</ClientRectangle>
+              <ClientRectangle>4.9,1.7,2.4,0.3</ClientRectangle>
               <Conditions isList="true" count="0" />
               <Font>Times New Roman,8,Bold</Font>
               <Guid>0f9ea21857b14d899dd1d80910068c85</Guid>
@@ -546,7 +551,7 @@
             <Text46 Ref="23" type="Text" isKey="true">
               <Brush>Transparent</Brush>
               <CanGrow>True</CanGrow>
-              <ClientRectangle>4.6,2.2,2.7,0.4</ClientRectangle>
+              <ClientRectangle>4.6,2,2.7,0.4</ClientRectangle>
               <Conditions isList="true" count="0" />
               <Font>Times New Roman,8,Bold</Font>
               <Guid>4c7afd55a0034ee1bb48f34db3d37127</Guid>
@@ -565,7 +570,7 @@
             </Text46>
             <Text47 Ref="25" type="Text" isKey="true">
               <Brush>Transparent</Brush>
-              <ClientRectangle>0.1,1.3,7.2,0.2</ClientRectangle>
+              <ClientRectangle>0.1,1.2,7.2,0.2</ClientRectangle>
               <Conditions isList="true" count="0" />
               <Font>Times New Roman,14,Bold</Font>
               <Guid>c0d78c971da548b0af2e42b0be229a37</Guid>
@@ -581,7 +586,7 @@
             </Text47>
             <Text48 Ref="26" type="Text" isKey="true">
               <Brush>Transparent</Brush>
-              <ClientRectangle>0.1,1.9,1.3,0.3</ClientRectangle>
+              <ClientRectangle>0.1,1.7,1.3,0.3</ClientRectangle>
               <Conditions isList="true" count="0" />
               <Font>Times New Roman,8,Bold</Font>
               <Guid>1c06dc16246b406c99e0bf1b0224a62e</Guid>
@@ -596,7 +601,7 @@
             </Text48>
             <Text49 Ref="27" type="Text" isKey="true">
               <Brush>Transparent</Brush>
-              <ClientRectangle>0.1,2.2,0.4,0.4</ClientRectangle>
+              <ClientRectangle>0.1,2,0.4,0.4</ClientRectangle>
               <Conditions isList="true" count="0" />
               <Font>Times New Roman,8,Bold</Font>
               <Guid>4d795a1002d84553ab176fc3ebf1be28</Guid>
@@ -611,7 +616,7 @@
             </Text49>
             <Text50 Ref="28" type="Text" isKey="true">
               <Brush>Transparent</Brush>
-              <ClientRectangle>0.5,2.2,0.1,0.4</ClientRectangle>
+              <ClientRectangle>0.5,2,0.1,0.4</ClientRectangle>
               <Conditions isList="true" count="0" />
               <Font>Times New Roman,8,Bold</Font>
               <Guid>ee206a6612884379a31c44cc8f17f052</Guid>
@@ -628,7 +633,7 @@
             <Text51 Ref="29" type="Text" isKey="true">
               <Brush>Transparent</Brush>
               <CanGrow>True</CanGrow>
-              <ClientRectangle>0.6,2.2,1,0.4</ClientRectangle>
+              <ClientRectangle>0.6,2,1,0.4</ClientRectangle>
               <Conditions isList="true" count="0" />
               <Font>Times New Roman,8,Bold</Font>
               <Guid>1d5ccb9577f24934b4ca6badbe78d229</Guid>
@@ -644,7 +649,7 @@
             </Text51>
             <Text52 Ref="30" type="Text" isKey="true">
               <Brush>Transparent</Brush>
-              <ClientRectangle>1.6,2.2,2.2,0.2</ClientRectangle>
+              <ClientRectangle>1.6,2,2.2,0.2</ClientRectangle>
               <Conditions isList="true" count="0" />
               <Font>Times New Roman,8,Bold</Font>
               <Guid>54c31ffd42b64a91866387f54d822b02</Guid>
@@ -660,7 +665,7 @@
             </Text52>
             <Text53 Ref="31" type="Text" isKey="true">
               <Brush>Transparent</Brush>
-              <ClientRectangle>1.6,2.4,2.2,0.2</ClientRectangle>
+              <ClientRectangle>1.6,2.2,2.2,0.2</ClientRectangle>
               <Conditions isList="true" count="0" />
               <Font>Times New Roman,8,Bold</Font>
               <HorAlignment>Center</HorAlignment>
@@ -674,7 +679,7 @@
               <VertAlignment>Center</VertAlignment>
             </Text53>
             <HorizontalLinePrimitive5 Ref="32" type="HorizontalLinePrimitive" isKey="true">
-              <ClientRectangle>0.1,2.6,7.2,0.01</ClientRectangle>
+              <ClientRectangle>0.1,2.4,7.2,0.01</ClientRectangle>
               <Color>Black</Color>
               <EndCap Ref="33" type="Cap" isKey="true">
                 <Color>Black</Color>
@@ -687,7 +692,7 @@
               </StartCap>
             </HorizontalLinePrimitive5>
             <HorizontalLinePrimitive6 Ref="35" type="HorizontalLinePrimitive" isKey="true">
-              <ClientRectangle>0.1,1.6,7.2,0.01</ClientRectangle>
+              <ClientRectangle>0.1,1.4,7.2,0.01</ClientRectangle>
               <Color>Black</Color>
               <EndCap Ref="36" type="Cap" isKey="true">
                 <Color>Black</Color>
@@ -701,49 +706,49 @@
               </StartCap>
             </HorizontalLinePrimitive6>
             <StartPointPrimitive42 Ref="38" type="Stimulsoft.Report.Components.StiStartPointPrimitive" isKey="true">
-              <ClientRectangle>3.8,1.6,0,0</ClientRectangle>
+              <ClientRectangle>3.8,1.4,0,0</ClientRectangle>
               <Name>StartPointPrimitive42</Name>
               <Page isRef="5" />
               <Parent isRef="6" />
               <ReferenceToGuid>94f4f1fff514440aad753f65f56b2146</ReferenceToGuid>
             </StartPointPrimitive42>
             <EndPointPrimitive51 Ref="39" type="Stimulsoft.Report.Components.StiEndPointPrimitive" isKey="true">
-              <ClientRectangle>3.8,2.6,0,0</ClientRectangle>
+              <ClientRectangle>3.8,2.4,0,0</ClientRectangle>
               <Name>EndPointPrimitive51</Name>
               <Page isRef="5" />
               <Parent isRef="6" />
               <ReferenceToGuid>94f4f1fff514440aad753f65f56b2146</ReferenceToGuid>
             </EndPointPrimitive51>
             <StartPointPrimitive43 Ref="40" type="Stimulsoft.Report.Components.StiStartPointPrimitive" isKey="true">
-              <ClientRectangle>0.1,1.6,0,0</ClientRectangle>
+              <ClientRectangle>0.1,1.4,0,0</ClientRectangle>
               <Name>StartPointPrimitive43</Name>
               <Page isRef="5" />
               <Parent isRef="6" />
               <ReferenceToGuid>04c844717f164d60a6a1f4764b52f04e</ReferenceToGuid>
             </StartPointPrimitive43>
             <EndPointPrimitive53 Ref="41" type="Stimulsoft.Report.Components.StiEndPointPrimitive" isKey="true">
-              <ClientRectangle>0.1,2.6,0,0</ClientRectangle>
+              <ClientRectangle>0.1,2.4,0,0</ClientRectangle>
               <Name>EndPointPrimitive53</Name>
               <Page isRef="5" />
               <Parent isRef="6" />
               <ReferenceToGuid>04c844717f164d60a6a1f4764b52f04e</ReferenceToGuid>
             </EndPointPrimitive53>
             <StartPointPrimitive44 Ref="42" type="Stimulsoft.Report.Components.StiStartPointPrimitive" isKey="true">
-              <ClientRectangle>7.3,1.6,0,0</ClientRectangle>
+              <ClientRectangle>7.3,1.4,0,0</ClientRectangle>
               <Name>StartPointPrimitive44</Name>
               <Page isRef="5" />
               <Parent isRef="6" />
               <ReferenceToGuid>1b2fa30660e146389f0f2c804915dc28</ReferenceToGuid>
             </StartPointPrimitive44>
             <EndPointPrimitive54 Ref="43" type="Stimulsoft.Report.Components.StiEndPointPrimitive" isKey="true">
-              <ClientRectangle>7.3,2.6,0,0</ClientRectangle>
+              <ClientRectangle>7.3,2.4,0,0</ClientRectangle>
               <Name>EndPointPrimitive54</Name>
               <Page isRef="5" />
               <Parent isRef="6" />
               <ReferenceToGuid>1b2fa30660e146389f0f2c804915dc28</ReferenceToGuid>
             </EndPointPrimitive54>
             <HorizontalLinePrimitive7 Ref="44" type="HorizontalLinePrimitive" isKey="true">
-              <ClientRectangle>0.1,1.9,7.2,0.01</ClientRectangle>
+              <ClientRectangle>0.1,1.7,7.2,0.01</ClientRectangle>
               <Color>Black</Color>
               <EndCap Ref="45" type="Cap" isKey="true">
                 <Color>Black</Color>
@@ -756,7 +761,7 @@
               </StartCap>
             </HorizontalLinePrimitive7>
             <HorizontalLinePrimitive8 Ref="47" type="HorizontalLinePrimitive" isKey="true">
-              <ClientRectangle>0.1,2.2,7.2,0.01</ClientRectangle>
+              <ClientRectangle>0.1,2,7.2,0.01</ClientRectangle>
               <Color>Black</Color>
               <EndCap Ref="48" type="Cap" isKey="true">
                 <Color>Black</Color>
@@ -777,11 +782,11 @@
         <ReportSummaryBand3 Ref="50" type="ReportSummaryBand" isKey="true">
           <Brush>Transparent</Brush>
           <CanGrow>False</CanGrow>
-          <ClientRectangle>0,3.4,7.38,1.7</ClientRectangle>
+          <ClientRectangle>0,3,7.38,1.5</ClientRectangle>
           <Components isList="true" count="20">
             <Text54 Ref="51" type="Text" isKey="true">
               <Brush>Transparent</Brush>
-              <ClientRectangle>6.3,1,0,0.1</ClientRectangle>
+              <ClientRectangle>6.3,0.9,0,0.1</ClientRectangle>
               <Conditions isList="true" count="0" />
               <Font>Times New Roman,8,Bold</Font>
               <Guid>8b606aec449247cd8025bd435befb1e1</Guid>
@@ -908,7 +913,7 @@
             </Text60>
             <Image21 Ref="60" type="Image" isKey="true">
               <Brush>Transparent</Brush>
-              <ClientRectangle>0.1,0.5,0.2,0.2</ClientRectangle>
+              <ClientRectangle>0.1,0.4,0.2,0.2</ClientRectangle>
               <Conditions isList="true" count="0" />
               <Guid>62a8670696534b00a621848ce2907158</Guid>
               <Image>iVBORw0KGgoAAAANSUhEUgAAABIAAAAUCAYAAACAl21KAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAOwAAADsABataJCQAAAEFJREFUOE9j+E8lwIAuQC6grkEGBgb/GRgYSMYgfSgGgQTJAcj6Rg3CDkYNIgxGkkECAgJgQVIxSB+KQdQAg88gAAWa+r+4P0WhAAAAAElFTkSuQmCC</Image>
@@ -920,7 +925,7 @@
             </Image21>
             <Image22 Ref="61" type="Image" isKey="true">
               <Brush>Transparent</Brush>
-              <ClientRectangle>0.1,0.8,0.2,0.2</ClientRectangle>
+              <ClientRectangle>0.1,0.7,0.2,0.2</ClientRectangle>
               <Conditions isList="true" count="0" />
               <Guid>f6b83400d0a94d1daf8433bc43c879a6</Guid>
               <Image>iVBORw0KGgoAAAANSUhEUgAAABIAAAAUCAYAAACAl21KAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAOwAAADsABataJCQAAAEFJREFUOE9j+E8lwIAuQC6grkEGBgb/GRgYSMYgfSgGgQTJAcj6Rg3CDkYNIgxGkkECAgJgQVIxSB+KQdQAg88gAAWa+r+4P0WhAAAAAElFTkSuQmCC</Image>
@@ -932,7 +937,7 @@
             </Image22>
             <Image23 Ref="62" type="Image" isKey="true">
               <Brush>Transparent</Brush>
-              <ClientRectangle>0.1,1.1,0.2,0.2</ClientRectangle>
+              <ClientRectangle>0.1,1,0.2,0.2</ClientRectangle>
               <Conditions isList="true" count="0" />
               <Guid>d6b7202d12c043f08022182bb0ec2c67</Guid>
               <Image>iVBORw0KGgoAAAANSUhEUgAAABIAAAAUCAYAAACAl21KAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAOwAAADsABataJCQAAAEFJREFUOE9j+E8lwIAuQC6grkEGBgb/GRgYSMYgfSgGgQTJAcj6Rg3CDkYNIgxGkkECAgJgQVIxSB+KQdQAg88gAAWa+r+4P0WhAAAAAElFTkSuQmCC</Image>
@@ -944,7 +949,7 @@
             </Image23>
             <Image24 Ref="63" type="Image" isKey="true">
               <Brush>Transparent</Brush>
-              <ClientRectangle>0.1,1.4,0.2,0.2</ClientRectangle>
+              <ClientRectangle>0.1,1.3,0.2,0.2</ClientRectangle>
               <Conditions isList="true" count="0" />
               <Guid>efae314e557349f7a1143603460c9b59</Guid>
               <Image>iVBORw0KGgoAAAANSUhEUgAAABIAAAAUCAYAAACAl21KAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAOwAAADsABataJCQAAAEFJREFUOE9j+E8lwIAuQC6grkEGBgb/GRgYSMYgfSgGgQTJAcj6Rg3CDkYNIgxGkkECAgJgQVIxSB+KQdQAg88gAAWa+r+4P0WhAAAAAElFTkSuQmCC</Image>
@@ -956,7 +961,7 @@
             </Image24>
             <Text61 Ref="64" type="Text" isKey="true">
               <Brush>Transparent</Brush>
-              <ClientRectangle>0.4,0.5,6.9,0.2</ClientRectangle>
+              <ClientRectangle>0.4,0.4,6.9,0.2</ClientRectangle>
               <Conditions isList="true" count="0" />
               <Font>Arial,8</Font>
               <Margins>0,0,0,0</Margins>
@@ -970,7 +975,7 @@
             </Text61>
             <Text62 Ref="65" type="Text" isKey="true">
               <Brush>Transparent</Brush>
-              <ClientRectangle>0.4,0.8,6.9,0.2</ClientRectangle>
+              <ClientRectangle>0.4,0.7,6.9,0.2</ClientRectangle>
               <Conditions isList="true" count="0" />
               <Font>Arial,8</Font>
               <Guid>84ab7f88e9a444729dddbde6e0fc0713</Guid>
@@ -985,7 +990,7 @@
             </Text62>
             <Text63 Ref="66" type="Text" isKey="true">
               <Brush>Transparent</Brush>
-              <ClientRectangle>0.4,1.1,6.9,0.2</ClientRectangle>
+              <ClientRectangle>0.4,1,6.9,0.2</ClientRectangle>
               <Conditions isList="true" count="0" />
               <Font>Arial,8</Font>
               <Guid>63eba30faef24a6d8c3e97e04a5ca3b5</Guid>
@@ -1000,7 +1005,7 @@
             </Text63>
             <Text64 Ref="67" type="Text" isKey="true">
               <Brush>Transparent</Brush>
-              <ClientRectangle>0.4,1.4,6.9,0.2</ClientRectangle>
+              <ClientRectangle>0.4,1.3,6.9,0.2</ClientRectangle>
               <Conditions isList="true" count="0" />
               <Font>Arial,8</Font>
               <Guid>a9a1dee61e3b46668e5316cfed1c6a01</Guid>
@@ -1049,11 +1054,11 @@
         <ReportSummaryBand4 Ref="73" type="ReportSummaryBand" isKey="true">
           <Brush>Transparent</Brush>
           <CanBreak>True</CanBreak>
-          <ClientRectangle>0,5.5,7.38,1.5</ClientRectangle>
+          <ClientRectangle>0,4.9,7.38,1.3</ClientRectangle>
           <Components isList="true" count="20">
             <Text65 Ref="74" type="Text" isKey="true">
               <Brush>Transparent</Brush>
-              <ClientRectangle>5.8,1,0,0.1</ClientRectangle>
+              <ClientRectangle>5.8,0.9,0,0.1</ClientRectangle>
               <Conditions isList="true" count="0" />
               <Font>Times New Roman,8,Bold</Font>
               <Guid>9ea98d12eac74616b087440e66d77998</Guid>
@@ -1085,7 +1090,7 @@
             </Text66>
             <Image25 Ref="76" type="Image" isKey="true">
               <Brush>Transparent</Brush>
-              <ClientRectangle>0.1,0.3,0.2,0.2</ClientRectangle>
+              <ClientRectangle>0.1,0.2,0.2,0.2</ClientRectangle>
               <Conditions isList="true" count="0" />
               <Guid>81d4395896ca4941a61aa70f0c813636</Guid>
               <Image>iVBORw0KGgoAAAANSUhEUgAAABIAAAAUCAYAAACAl21KAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAOwAAADsABataJCQAAAEFJREFUOE9j+E8lwIAuQC6grkEGBgb/GRgYSMYgfSgGgQTJAcj6Rg3CDkYNIgxGkkECAgJgQVIxSB+KQdQAg88gAAWa+r+4P0WhAAAAAElFTkSuQmCC</Image>
@@ -1097,7 +1102,7 @@
             </Image25>
             <Image26 Ref="77" type="Image" isKey="true">
               <Brush>Transparent</Brush>
-              <ClientRectangle>0.1,0.6,0.2,0.2</ClientRectangle>
+              <ClientRectangle>0.1,0.5,0.2,0.2</ClientRectangle>
               <Conditions isList="true" count="0" />
               <Guid>85b58a54dae048a59dda97a1dd9eb8a8</Guid>
               <Image>iVBORw0KGgoAAAANSUhEUgAAABIAAAAUCAYAAACAl21KAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAOwAAADsABataJCQAAAEFJREFUOE9j+E8lwIAuQC6grkEGBgb/GRgYSMYgfSgGgQTJAcj6Rg3CDkYNIgxGkkECAgJgQVIxSB+KQdQAg88gAAWa+r+4P0WhAAAAAElFTkSuQmCC</Image>
@@ -1109,7 +1114,7 @@
             </Image26>
             <Image27 Ref="78" type="Image" isKey="true">
               <Brush>Transparent</Brush>
-              <ClientRectangle>0.1,0.9,0.2,0.2</ClientRectangle>
+              <ClientRectangle>0.1,0.8,0.2,0.2</ClientRectangle>
               <Conditions isList="true" count="0" />
               <Guid>77a2ae3173d347a2b895dc4e62d214ec</Guid>
               <Image>iVBORw0KGgoAAAANSUhEUgAAABIAAAAUCAYAAACAl21KAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAOwAAADsABataJCQAAAEFJREFUOE9j+E8lwIAuQC6grkEGBgb/GRgYSMYgfSgGgQTJAcj6Rg3CDkYNIgxGkkECAgJgQVIxSB+KQdQAg88gAAWa+r+4P0WhAAAAAElFTkSuQmCC</Image>
@@ -1121,7 +1126,7 @@
             </Image27>
             <Image28 Ref="79" type="Image" isKey="true">
               <Brush>Transparent</Brush>
-              <ClientRectangle>0.1,1.2,0.2,0.2</ClientRectangle>
+              <ClientRectangle>0.1,1.1,0.2,0.2</ClientRectangle>
               <Conditions isList="true" count="0" />
               <Guid>81c1ed5c7ae843f39d6b47449b052035</Guid>
               <Image>iVBORw0KGgoAAAANSUhEUgAAABIAAAAUCAYAAACAl21KAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAOwAAADsABataJCQAAAEFJREFUOE9j+E8lwIAuQC6grkEGBgb/GRgYSMYgfSgGgQTJAcj6Rg3CDkYNIgxGkkECAgJgQVIxSB+KQdQAg88gAAWa+r+4P0WhAAAAAElFTkSuQmCC</Image>
@@ -1133,7 +1138,7 @@
             </Image28>
             <Text67 Ref="80" type="Text" isKey="true">
               <Brush>Transparent</Brush>
-              <ClientRectangle>0.4,0.3,1.8,0.2</ClientRectangle>
+              <ClientRectangle>0.4,0.2,1.8,0.2</ClientRectangle>
               <Conditions isList="true" count="0" />
               <Font>Arial,8</Font>
               <Guid>351227961f6f47e8a491f2bdc8998f90</Guid>
@@ -1148,7 +1153,7 @@
             </Text67>
             <Text68 Ref="81" type="Text" isKey="true">
               <Brush>Transparent</Brush>
-              <ClientRectangle>0.4,0.6,1.8,0.2</ClientRectangle>
+              <ClientRectangle>0.4,0.5,1.8,0.2</ClientRectangle>
               <Conditions isList="true" count="0" />
               <Font>Arial,8</Font>
               <Guid>52574bfeef5d44a0847301d3256a894f</Guid>
@@ -1163,7 +1168,7 @@
             </Text68>
             <Text69 Ref="82" type="Text" isKey="true">
               <Brush>Transparent</Brush>
-              <ClientRectangle>0.4,0.9,1.8,0.2</ClientRectangle>
+              <ClientRectangle>0.4,0.8,1.8,0.2</ClientRectangle>
               <Conditions isList="true" count="0" />
               <Font>Arial,8</Font>
               <Guid>bc5d328ffe28466ab8fd2a1abab56b8c</Guid>
@@ -1178,7 +1183,7 @@
             </Text69>
             <Text70 Ref="83" type="Text" isKey="true">
               <Brush>Transparent</Brush>
-              <ClientRectangle>0.4,1.2,1.8,0.2</ClientRectangle>
+              <ClientRectangle>0.4,1.1,1.8,0.2</ClientRectangle>
               <Conditions isList="true" count="0" />
               <Font>Arial,8</Font>
               <Guid>fe147547cc334024b8ef4c92dddf6cc4</Guid>
@@ -1193,7 +1198,7 @@
             </Text70>
             <Image29 Ref="84" type="Image" isKey="true">
               <Brush>Transparent</Brush>
-              <ClientRectangle>4,0.3,0.2,0.2</ClientRectangle>
+              <ClientRectangle>4,0.2,0.2,0.2</ClientRectangle>
               <Conditions isList="true" count="0" />
               <Guid>c969a65c2ac14d548c975785cec642fc</Guid>
               <Image>iVBORw0KGgoAAAANSUhEUgAAABIAAAAUCAYAAACAl21KAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAOwAAADsABataJCQAAAEFJREFUOE9j+E8lwIAuQC6grkEGBgb/GRgYSMYgfSgGgQTJAcj6Rg3CDkYNIgxGkkECAgJgQVIxSB+KQdQAg88gAAWa+r+4P0WhAAAAAElFTkSuQmCC</Image>
@@ -1205,7 +1210,7 @@
             </Image29>
             <Image30 Ref="85" type="Image" isKey="true">
               <Brush>Transparent</Brush>
-              <ClientRectangle>4,0.6,0.2,0.2</ClientRectangle>
+              <ClientRectangle>4,0.5,0.2,0.2</ClientRectangle>
               <Conditions isList="true" count="0" />
               <Guid>5aa3f431b81e489d9dc90dc08ccb9da0</Guid>
               <Image>iVBORw0KGgoAAAANSUhEUgAAABIAAAAUCAYAAACAl21KAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAOwAAADsABataJCQAAAEFJREFUOE9j+E8lwIAuQC6grkEGBgb/GRgYSMYgfSgGgQTJAcj6Rg3CDkYNIgxGkkECAgJgQVIxSB+KQdQAg88gAAWa+r+4P0WhAAAAAElFTkSuQmCC</Image>
@@ -1217,7 +1222,7 @@
             </Image30>
             <Image31 Ref="86" type="Image" isKey="true">
               <Brush>Transparent</Brush>
-              <ClientRectangle>4,0.9,0.2,0.2</ClientRectangle>
+              <ClientRectangle>4,0.8,0.2,0.2</ClientRectangle>
               <Conditions isList="true" count="0" />
               <Guid>6af71e7053584a888d8a1dd560f78963</Guid>
               <Image>iVBORw0KGgoAAAANSUhEUgAAABIAAAAUCAYAAACAl21KAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAOwAAADsABataJCQAAAEFJREFUOE9j+E8lwIAuQC6grkEGBgb/GRgYSMYgfSgGgQTJAcj6Rg3CDkYNIgxGkkECAgJgQVIxSB+KQdQAg88gAAWa+r+4P0WhAAAAAElFTkSuQmCC</Image>
@@ -1229,7 +1234,7 @@
             </Image31>
             <Image32 Ref="87" type="Image" isKey="true">
               <Brush>Transparent</Brush>
-              <ClientRectangle>4,1.2,0.2,0.2</ClientRectangle>
+              <ClientRectangle>4,1.1,0.2,0.2</ClientRectangle>
               <Conditions isList="true" count="0" />
               <Guid>b049616b95754595b72c013f2bb51df9</Guid>
               <Image>iVBORw0KGgoAAAANSUhEUgAAABIAAAAUCAYAAACAl21KAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAOwAAADsABataJCQAAAEFJREFUOE9j+E8lwIAuQC6grkEGBgb/GRgYSMYgfSgGgQTJAcj6Rg3CDkYNIgxGkkECAgJgQVIxSB+KQdQAg88gAAWa+r+4P0WhAAAAAElFTkSuQmCC</Image>
@@ -1241,7 +1246,7 @@
             </Image32>
             <Text71 Ref="88" type="Text" isKey="true">
               <Brush>Transparent</Brush>
-              <ClientRectangle>4.3,0.3,1.8,0.2</ClientRectangle>
+              <ClientRectangle>4.3,0.2,1.8,0.2</ClientRectangle>
               <Conditions isList="true" count="0" />
               <Font>Arial,8</Font>
               <Guid>ea36dc0baa8a431ab8c2cfee75a5e877</Guid>
@@ -1256,7 +1261,7 @@
             </Text71>
             <Text72 Ref="89" type="Text" isKey="true">
               <Brush>Transparent</Brush>
-              <ClientRectangle>4.3,0.6,1.8,0.2</ClientRectangle>
+              <ClientRectangle>4.3,0.5,1.8,0.2</ClientRectangle>
               <Conditions isList="true" count="0" />
               <Font>Arial,8</Font>
               <Guid>8bdbd64b069949ba9e513ebdfdd7f405</Guid>
@@ -1271,7 +1276,7 @@
             </Text72>
             <Text73 Ref="90" type="Text" isKey="true">
               <Brush>Transparent</Brush>
-              <ClientRectangle>4.3,0.9,1.8,0.2</ClientRectangle>
+              <ClientRectangle>4.3,0.8,1.8,0.2</ClientRectangle>
               <Conditions isList="true" count="0" />
               <Font>Arial,8</Font>
               <Guid>0e706e37db5b40e0890d91bb8d29d362</Guid>
@@ -1286,7 +1291,7 @@
             </Text73>
             <Text74 Ref="91" type="Text" isKey="true">
               <Brush>Transparent</Brush>
-              <ClientRectangle>4.3,1.2,1.8,0.2</ClientRectangle>
+              <ClientRectangle>4.3,1.1,1.8,0.2</ClientRectangle>
               <Conditions isList="true" count="0" />
               <Font>Arial,8</Font>
               <Guid>68c9aed8450f4b168cb60a0751b3f16b</Guid>
@@ -1323,11 +1328,11 @@
         <ReportSummaryBand1 Ref="94" type="ReportSummaryBand" isKey="true">
           <Brush>Transparent</Brush>
           <CanBreak>True</CanBreak>
-          <ClientRectangle>0,7.4,7.38,3.7</ClientRectangle>
+          <ClientRectangle>0,6.6,7.38,3.5</ClientRectangle>
           <Components isList="true" count="36">
             <Text1 Ref="95" type="Text" isKey="true">
               <Brush>Transparent</Brush>
-              <ClientRectangle>5.8,1,0,0.1</ClientRectangle>
+              <ClientRectangle>5.8,0.9,0,0.1</ClientRectangle>
               <Conditions isList="true" count="0" />
               <Font>Times New Roman,8,Bold</Font>
               <Guid>3dffc1563582464fa71204d34b623984</Guid>
@@ -1359,7 +1364,7 @@
             </Text2>
             <Image1 Ref="97" type="Image" isKey="true">
               <Brush>Transparent</Brush>
-              <ClientRectangle>0.1,0.3,0.2,0.2</ClientRectangle>
+              <ClientRectangle>0.1,0.2,0.2,0.2</ClientRectangle>
               <Conditions isList="true" count="0" />
               <Guid>4dc6e89ee52f44d9aabf0f463dbedb10</Guid>
               <Image>iVBORw0KGgoAAAANSUhEUgAAABIAAAAUCAYAAACAl21KAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAOwAAADsABataJCQAAAEFJREFUOE9j+E8lwIAuQC6grkEGBgb/GRgYSMYgfSgGgQTJAcj6Rg3CDkYNIgxGkkECAgJgQVIxSB+KQdQAg88gAAWa+r+4P0WhAAAAAElFTkSuQmCC</Image>
@@ -1371,7 +1376,7 @@
             </Image1>
             <Image2 Ref="98" type="Image" isKey="true">
               <Brush>Transparent</Brush>
-              <ClientRectangle>0.1,0.6,0.2,0.2</ClientRectangle>
+              <ClientRectangle>0.1,0.5,0.2,0.2</ClientRectangle>
               <Conditions isList="true" count="0" />
               <Guid>929c5e64327242ab98901db3f3069f8a</Guid>
               <Image>iVBORw0KGgoAAAANSUhEUgAAABIAAAAUCAYAAACAl21KAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAOwAAADsABataJCQAAAEFJREFUOE9j+E8lwIAuQC6grkEGBgb/GRgYSMYgfSgGgQTJAcj6Rg3CDkYNIgxGkkECAgJgQVIxSB+KQdQAg88gAAWa+r+4P0WhAAAAAElFTkSuQmCC</Image>
@@ -1383,7 +1388,7 @@
             </Image2>
             <Image3 Ref="99" type="Image" isKey="true">
               <Brush>Transparent</Brush>
-              <ClientRectangle>0.1,0.9,0.2,0.2</ClientRectangle>
+              <ClientRectangle>0.1,0.8,0.2,0.2</ClientRectangle>
               <Conditions isList="true" count="0" />
               <Guid>2ad5cf2e15114e71ae28e3a9f947f465</Guid>
               <Image>iVBORw0KGgoAAAANSUhEUgAAABIAAAAUCAYAAACAl21KAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAOwAAADsABataJCQAAAEFJREFUOE9j+E8lwIAuQC6grkEGBgb/GRgYSMYgfSgGgQTJAcj6Rg3CDkYNIgxGkkECAgJgQVIxSB+KQdQAg88gAAWa+r+4P0WhAAAAAElFTkSuQmCC</Image>
@@ -1395,7 +1400,7 @@
             </Image3>
             <Image4 Ref="100" type="Image" isKey="true">
               <Brush>Transparent</Brush>
-              <ClientRectangle>0.1,1.2,0.2,0.2</ClientRectangle>
+              <ClientRectangle>0.1,1.1,0.2,0.2</ClientRectangle>
               <Conditions isList="true" count="0" />
               <Guid>4aee19f87f674656bbb760b0b443b86d</Guid>
               <Image>iVBORw0KGgoAAAANSUhEUgAAABIAAAAUCAYAAACAl21KAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAOwAAADsABataJCQAAAEFJREFUOE9j+E8lwIAuQC6grkEGBgb/GRgYSMYgfSgGgQTJAcj6Rg3CDkYNIgxGkkECAgJgQVIxSB+KQdQAg88gAAWa+r+4P0WhAAAAAElFTkSuQmCC</Image>
@@ -1407,7 +1412,7 @@
             </Image4>
             <Text3 Ref="101" type="Text" isKey="true">
               <Brush>Transparent</Brush>
-              <ClientRectangle>0.4,0.3,2,0.2</ClientRectangle>
+              <ClientRectangle>0.4,0.2,2,0.2</ClientRectangle>
               <Conditions isList="true" count="0" />
               <Font>Arial,8</Font>
               <Guid>809977bd81844aca87c8abe15b7c6f5a</Guid>
@@ -1422,7 +1427,7 @@
             </Text3>
             <Text4 Ref="102" type="Text" isKey="true">
               <Brush>Transparent</Brush>
-              <ClientRectangle>0.4,0.6,2,0.2</ClientRectangle>
+              <ClientRectangle>0.4,0.5,2,0.2</ClientRectangle>
               <Conditions isList="true" count="0" />
               <Font>Arial,8</Font>
               <Guid>f6d675d01cf94c2fa63dc8ded29c33c6</Guid>
@@ -1437,7 +1442,7 @@
             </Text4>
             <Text5 Ref="103" type="Text" isKey="true">
               <Brush>Transparent</Brush>
-              <ClientRectangle>0.4,0.9,2,0.2</ClientRectangle>
+              <ClientRectangle>0.4,0.8,2,0.2</ClientRectangle>
               <Conditions isList="true" count="0" />
               <Font>Arial,8</Font>
               <Guid>35dcdae6358a433786839eb2c60967ee</Guid>
@@ -1452,7 +1457,7 @@
             </Text5>
             <Text6 Ref="104" type="Text" isKey="true">
               <Brush>Transparent</Brush>
-              <ClientRectangle>0.4,1.2,1.8,0.2</ClientRectangle>
+              <ClientRectangle>0.4,1.1,1.8,0.2</ClientRectangle>
               <Conditions isList="true" count="0" />
               <Font>Arial,8</Font>
               <Guid>23c509ea56c24d6f9fad864d5b20f62f</Guid>
@@ -1467,7 +1472,7 @@
             </Text6>
             <Image5 Ref="105" type="Image" isKey="true">
               <Brush>Transparent</Brush>
-              <ClientRectangle>4,0.3,0.2,0.2</ClientRectangle>
+              <ClientRectangle>4,0.2,0.2,0.2</ClientRectangle>
               <Conditions isList="true" count="0" />
               <Guid>56de7713a7144e93a01d1d3357ad0250</Guid>
               <Image>iVBORw0KGgoAAAANSUhEUgAAABIAAAAUCAYAAACAl21KAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAOwAAADsABataJCQAAAEFJREFUOE9j+E8lwIAuQC6grkEGBgb/GRgYSMYgfSgGgQTJAcj6Rg3CDkYNIgxGkkECAgJgQVIxSB+KQdQAg88gAAWa+r+4P0WhAAAAAElFTkSuQmCC</Image>
@@ -1479,7 +1484,7 @@
             </Image5>
             <Image6 Ref="106" type="Image" isKey="true">
               <Brush>Transparent</Brush>
-              <ClientRectangle>4,0.6,0.2,0.2</ClientRectangle>
+              <ClientRectangle>4,0.5,0.2,0.2</ClientRectangle>
               <Conditions isList="true" count="0" />
               <Guid>e8a5f2af8f6e4c19b578eb43f014d2ee</Guid>
               <Image>iVBORw0KGgoAAAANSUhEUgAAABIAAAAUCAYAAACAl21KAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAOwAAADsABataJCQAAAEFJREFUOE9j+E8lwIAuQC6grkEGBgb/GRgYSMYgfSgGgQTJAcj6Rg3CDkYNIgxGkkECAgJgQVIxSB+KQdQAg88gAAWa+r+4P0WhAAAAAElFTkSuQmCC</Image>
@@ -1491,7 +1496,7 @@
             </Image6>
             <Image7 Ref="107" type="Image" isKey="true">
               <Brush>Transparent</Brush>
-              <ClientRectangle>4,0.9,0.2,0.2</ClientRectangle>
+              <ClientRectangle>4,0.8,0.2,0.2</ClientRectangle>
               <Conditions isList="true" count="0" />
               <Guid>b17789105daa4940a1ff51e1c8413815</Guid>
               <Image>iVBORw0KGgoAAAANSUhEUgAAABIAAAAUCAYAAACAl21KAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAOwAAADsABataJCQAAAEFJREFUOE9j+E8lwIAuQC6grkEGBgb/GRgYSMYgfSgGgQTJAcj6Rg3CDkYNIgxGkkECAgJgQVIxSB+KQdQAg88gAAWa+r+4P0WhAAAAAElFTkSuQmCC</Image>
@@ -1503,7 +1508,7 @@
             </Image7>
             <Image8 Ref="108" type="Image" isKey="true">
               <Brush>Transparent</Brush>
-              <ClientRectangle>4,1.2,0.2,0.2</ClientRectangle>
+              <ClientRectangle>4,1.1,0.2,0.2</ClientRectangle>
               <Conditions isList="true" count="0" />
               <Guid>959df8a8b01c47b58af25e4e4085b2d1</Guid>
               <Image>iVBORw0KGgoAAAANSUhEUgAAABIAAAAUCAYAAACAl21KAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAOwAAADsABataJCQAAAEFJREFUOE9j+E8lwIAuQC6grkEGBgb/GRgYSMYgfSgGgQTJAcj6Rg3CDkYNIgxGkkECAgJgQVIxSB+KQdQAg88gAAWa+r+4P0WhAAAAAElFTkSuQmCC</Image>
@@ -1515,7 +1520,7 @@
             </Image8>
             <Text7 Ref="109" type="Text" isKey="true">
               <Brush>Transparent</Brush>
-              <ClientRectangle>4.3,0.3,1.8,0.2</ClientRectangle>
+              <ClientRectangle>4.3,0.2,1.8,0.2</ClientRectangle>
               <Conditions isList="true" count="0" />
               <Font>Arial,8</Font>
               <Guid>827ee627724e4fb98de01dd446db2812</Guid>
@@ -1530,7 +1535,7 @@
             </Text7>
             <Text8 Ref="110" type="Text" isKey="true">
               <Brush>Transparent</Brush>
-              <ClientRectangle>4.3,0.6,2.5,0.2</ClientRectangle>
+              <ClientRectangle>4.3,0.5,2.5,0.2</ClientRectangle>
               <Conditions isList="true" count="0" />
               <Font>Arial,8</Font>
               <Guid>a9890c59d9894246934264e8969bf57a</Guid>
@@ -1545,7 +1550,7 @@
             </Text8>
             <Text9 Ref="111" type="Text" isKey="true">
               <Brush>Transparent</Brush>
-              <ClientRectangle>4.3,0.9,2.5,0.2</ClientRectangle>
+              <ClientRectangle>4.3,0.8,2.5,0.2</ClientRectangle>
               <Conditions isList="true" count="0" />
               <Font>Arial,8</Font>
               <Guid>18fa08b74a3644188521b2fa52e9dcf0</Guid>
@@ -1560,7 +1565,7 @@
             </Text9>
             <Text10 Ref="112" type="Text" isKey="true">
               <Brush>Transparent</Brush>
-              <ClientRectangle>4.3,1.2,2.5,0.2</ClientRectangle>
+              <ClientRectangle>4.3,1.1,2.5,0.2</ClientRectangle>
               <Conditions isList="true" count="0" />
               <Font>Arial,8</Font>
               <Guid>80caeb59b869422f9b61479bdfc9e038</Guid>
@@ -1575,7 +1580,7 @@
             </Text10>
             <Image9 Ref="113" type="Image" isKey="true">
               <Brush>Transparent</Brush>
-              <ClientRectangle>0.1,1.5,0.2,0.2</ClientRectangle>
+              <ClientRectangle>0.1,1.4,0.2,0.2</ClientRectangle>
               <Conditions isList="true" count="0" />
               <Guid>0fdf3b22af5b4a938473549c38e398d7</Guid>
               <Image>iVBORw0KGgoAAAANSUhEUgAAABIAAAAUCAYAAACAl21KAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAOwAAADsABataJCQAAAEFJREFUOE9j+E8lwIAuQC6grkEGBgb/GRgYSMYgfSgGgQTJAcj6Rg3CDkYNIgxGkkECAgJgQVIxSB+KQdQAg88gAAWa+r+4P0WhAAAAAElFTkSuQmCC</Image>
@@ -1587,7 +1592,7 @@
             </Image9>
             <Image10 Ref="114" type="Image" isKey="true">
               <Brush>Transparent</Brush>
-              <ClientRectangle>0.1,1.8,0.2,0.2</ClientRectangle>
+              <ClientRectangle>0.1,1.7,0.2,0.2</ClientRectangle>
               <Conditions isList="true" count="0" />
               <Guid>811366a5a9bd4131bf546412cd03bced</Guid>
               <Image>iVBORw0KGgoAAAANSUhEUgAAABIAAAAUCAYAAACAl21KAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAOwAAADsABataJCQAAAEFJREFUOE9j+E8lwIAuQC6grkEGBgb/GRgYSMYgfSgGgQTJAcj6Rg3CDkYNIgxGkkECAgJgQVIxSB+KQdQAg88gAAWa+r+4P0WhAAAAAElFTkSuQmCC</Image>
@@ -1599,7 +1604,7 @@
             </Image10>
             <Image11 Ref="115" type="Image" isKey="true">
               <Brush>Transparent</Brush>
-              <ClientRectangle>0.1,2.1,0.2,0.2</ClientRectangle>
+              <ClientRectangle>0.1,2,0.2,0.2</ClientRectangle>
               <Conditions isList="true" count="0" />
               <Guid>083dad8bfc6e4d6e83f6f54c54edbbb1</Guid>
               <Image>iVBORw0KGgoAAAANSUhEUgAAABIAAAAUCAYAAACAl21KAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAOwAAADsABataJCQAAAEFJREFUOE9j+E8lwIAuQC6grkEGBgb/GRgYSMYgfSgGgQTJAcj6Rg3CDkYNIgxGkkECAgJgQVIxSB+KQdQAg88gAAWa+r+4P0WhAAAAAElFTkSuQmCC</Image>
@@ -1611,7 +1616,7 @@
             </Image11>
             <Text11 Ref="116" type="Text" isKey="true">
               <Brush>Transparent</Brush>
-              <ClientRectangle>0.4,1.5,2.2,0.2</ClientRectangle>
+              <ClientRectangle>0.4,1.4,2.2,0.2</ClientRectangle>
               <Conditions isList="true" count="0" />
               <Font>Arial,8</Font>
               <Guid>fbd66067ebae412c807285481cbf6e82</Guid>
@@ -1626,7 +1631,7 @@
             </Text11>
             <Text12 Ref="117" type="Text" isKey="true">
               <Brush>Transparent</Brush>
-              <ClientRectangle>0.4,1.8,2,0.2</ClientRectangle>
+              <ClientRectangle>0.4,1.7,2,0.2</ClientRectangle>
               <Conditions isList="true" count="0" />
               <Font>Arial,8</Font>
               <Guid>d99dcb63b3de4f6cbc91aa1023c87715</Guid>
@@ -1641,7 +1646,7 @@
             </Text12>
             <Text13 Ref="118" type="Text" isKey="true">
               <Brush>Transparent</Brush>
-              <ClientRectangle>0.4,2.1,2.2,0.2</ClientRectangle>
+              <ClientRectangle>0.4,2,2.2,0.2</ClientRectangle>
               <Conditions isList="true" count="0" />
               <Font>Arial,8</Font>
               <Guid>98cb9d7e410d4e8badd0be63df063c9a</Guid>
@@ -1656,7 +1661,7 @@
             </Text13>
             <Image12 Ref="119" type="Image" isKey="true">
               <Brush>Transparent</Brush>
-              <ClientRectangle>4,1.5,0.2,0.2</ClientRectangle>
+              <ClientRectangle>4,1.4,0.2,0.2</ClientRectangle>
               <Conditions isList="true" count="0" />
               <Guid>2f8b7969be234226a9b9f06a6f57c09f</Guid>
               <Image>iVBORw0KGgoAAAANSUhEUgAAABIAAAAUCAYAAACAl21KAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAOwAAADsABataJCQAAAEFJREFUOE9j+E8lwIAuQC6grkEGBgb/GRgYSMYgfSgGgQTJAcj6Rg3CDkYNIgxGkkECAgJgQVIxSB+KQdQAg88gAAWa+r+4P0WhAAAAAElFTkSuQmCC</Image>
@@ -1668,7 +1673,7 @@
             </Image12>
             <Image13 Ref="120" type="Image" isKey="true">
               <Brush>Transparent</Brush>
-              <ClientRectangle>4,1.8,0.2,0.2</ClientRectangle>
+              <ClientRectangle>4,1.7,0.2,0.2</ClientRectangle>
               <Conditions isList="true" count="0" />
               <Guid>f64ca3d7f34c4d54b84829f35c500f8c</Guid>
               <Image>iVBORw0KGgoAAAANSUhEUgAAABIAAAAUCAYAAACAl21KAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAOwAAADsABataJCQAAAEFJREFUOE9j+E8lwIAuQC6grkEGBgb/GRgYSMYgfSgGgQTJAcj6Rg3CDkYNIgxGkkECAgJgQVIxSB+KQdQAg88gAAWa+r+4P0WhAAAAAElFTkSuQmCC</Image>
@@ -1680,7 +1685,7 @@
             </Image13>
             <Image14 Ref="121" type="Image" isKey="true">
               <Brush>Transparent</Brush>
-              <ClientRectangle>4,2.1,0.2,0.2</ClientRectangle>
+              <ClientRectangle>4,2,0.2,0.2</ClientRectangle>
               <Conditions isList="true" count="0" />
               <Guid>81047ece43f0438db6491ff4c61a1da9</Guid>
               <Image>iVBORw0KGgoAAAANSUhEUgAAABIAAAAUCAYAAACAl21KAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAOwAAADsABataJCQAAAEFJREFUOE9j+E8lwIAuQC6grkEGBgb/GRgYSMYgfSgGgQTJAcj6Rg3CDkYNIgxGkkECAgJgQVIxSB+KQdQAg88gAAWa+r+4P0WhAAAAAElFTkSuQmCC</Image>
@@ -1692,7 +1697,7 @@
             </Image14>
             <Text14 Ref="122" type="Text" isKey="true">
               <Brush>Transparent</Brush>
-              <ClientRectangle>4.3,1.5,3.1,0.2</ClientRectangle>
+              <ClientRectangle>4.3,1.4,3.1,0.2</ClientRectangle>
               <Conditions isList="true" count="0" />
               <Font>Arial,8</Font>
               <Guid>1fd486fa63394182b209afb376cd66d7</Guid>
@@ -1707,7 +1712,7 @@
             </Text14>
             <Text15 Ref="123" type="Text" isKey="true">
               <Brush>Transparent</Brush>
-              <ClientRectangle>4.3,1.8,2,0.2</ClientRectangle>
+              <ClientRectangle>4.3,1.7,2,0.2</ClientRectangle>
               <Conditions isList="true" count="0" />
               <Font>Arial,8</Font>
               <Guid>e2fdea61cfc1406f837f519bd1edb869</Guid>
@@ -1722,7 +1727,7 @@
             </Text15>
             <Text16 Ref="124" type="Text" isKey="true">
               <Brush>Transparent</Brush>
-              <ClientRectangle>4.3,2.1,2.2,0.2</ClientRectangle>
+              <ClientRectangle>4.3,2,2.2,0.2</ClientRectangle>
               <Conditions isList="true" count="0" />
               <Font>Arial,8</Font>
               <Guid>e4aac478e7b34466a413a014862aa93f</Guid>
@@ -1737,7 +1742,7 @@
             </Text16>
             <Text17 Ref="125" type="Text" isKey="true">
               <Brush>Transparent</Brush>
-              <ClientRectangle>0.1,2.4,7.2,0.2</ClientRectangle>
+              <ClientRectangle>0.1,2.2,7.2,0.2</ClientRectangle>
               <Conditions isList="true" count="0" />
               <Font>Times New Roman,8,Bold</Font>
               <Margins>0,0,0,0</Margins>
@@ -1751,7 +1756,7 @@
             </Text17>
             <Text18 Ref="126" type="Text" isKey="true">
               <Brush>Transparent</Brush>
-              <ClientRectangle>0.1,2.6,7.2,0.8</ClientRectangle>
+              <ClientRectangle>0.1,2.4,7.2,0.8</ClientRectangle>
               <Conditions isList="true" count="0" />
               <Font>Times New Roman,8,Bold</Font>
               <Margins>0,0,0,0</Margins>
@@ -1769,7 +1774,7 @@
             </Text18>
             <Text19 Ref="127" type="Text" isKey="true">
               <Brush>Transparent</Brush>
-              <ClientRectangle>0.1,3.4,7.2,0.3</ClientRectangle>
+              <ClientRectangle>0.1,3.2,7.2,0.3</ClientRectangle>
               <Conditions isList="true" count="0" />
               <Font>Times New Roman,8,Bold</Font>
               <Margins>0,0,0,0</Margins>
@@ -1814,7 +1819,7 @@
         </ReportSummaryBand1>
         <ReportSummaryBand2 Ref="131" type="ReportSummaryBand" isKey="true">
           <Brush>Transparent</Brush>
-          <ClientRectangle>0,11.5,7.38,2.3</ClientRectangle>
+          <ClientRectangle>0,10.5,7.38,1.7</ClientRectangle>
           <Components isList="true" count="14">
             <Text20 Ref="132" type="Text" isKey="true">
               <Brush>Transparent</Brush>
@@ -1979,22 +1984,22 @@
               <Parent isRef="131" />
               <ReferenceToGuid>0a3fcdb3ef9245ed8d1de3617b68ec20</ReferenceToGuid>
             </StartPointPrimitive3>
-            <EndPointPrimitive3 Ref="143" type="Stimulsoft.Report.Components.StiEndPointPrimitive" isKey="true">
-              <ClientRectangle>7.3,2.1,0,0</ClientRectangle>
-              <Name>EndPointPrimitive3</Name>
-              <Page isRef="5" />
-              <Parent isRef="131" />
-              <ReferenceToGuid>0a3fcdb3ef9245ed8d1de3617b68ec20</ReferenceToGuid>
-            </EndPointPrimitive3>
-            <StartPointPrimitive4 Ref="144" type="Stimulsoft.Report.Components.StiStartPointPrimitive" isKey="true">
+            <StartPointPrimitive4 Ref="143" type="Stimulsoft.Report.Components.StiStartPointPrimitive" isKey="true">
               <ClientRectangle>3.7,0.6,0,0</ClientRectangle>
               <Name>StartPointPrimitive4</Name>
               <Page isRef="5" />
               <Parent isRef="131" />
               <ReferenceToGuid>8086a37595ef404c91f28338cd746464</ReferenceToGuid>
             </StartPointPrimitive4>
+            <EndPointPrimitive3 Ref="144" type="Stimulsoft.Report.Components.StiEndPointPrimitive" isKey="true">
+              <ClientRectangle>7.3,1.7,0,0</ClientRectangle>
+              <Name>EndPointPrimitive3</Name>
+              <Page isRef="5" />
+              <Parent isRef="131" />
+              <ReferenceToGuid>0a3fcdb3ef9245ed8d1de3617b68ec20</ReferenceToGuid>
+            </EndPointPrimitive3>
             <EndPointPrimitive4 Ref="145" type="Stimulsoft.Report.Components.StiEndPointPrimitive" isKey="true">
-              <ClientRectangle>3.7,2.1,0,0</ClientRectangle>
+              <ClientRectangle>3.7,1.7,0,0</ClientRectangle>
               <Name>EndPointPrimitive4</Name>
               <Page isRef="5" />
               <Parent isRef="131" />
@@ -2550,7 +2555,7 @@
           <ReferenceToGuid>f6d7c72e910f4caaa1b0a8dc110a1f0c</ReferenceToGuid>
         </EndPointPrimitive48>
         <VerticalLinePrimitive6 Ref="219" type="VerticalLinePrimitive" isKey="true">
-          <ClientRectangle>3.8,1.8,0.01,1</ClientRectangle>
+          <ClientRectangle>3.8,1.6,0.01,1</ClientRectangle>
           <Color>Black</Color>
           <EndCap Ref="220" type="Cap" isKey="true">
             <Color>Black</Color>
@@ -2564,7 +2569,7 @@
           </StartCap>
         </VerticalLinePrimitive6>
         <VerticalLinePrimitive8 Ref="222" type="VerticalLinePrimitive" isKey="true">
-          <ClientRectangle>0.1,1.8,0.01,1</ClientRectangle>
+          <ClientRectangle>0.1,1.6,0.01,1</ClientRectangle>
           <Color>Black</Color>
           <EndCap Ref="223" type="Cap" isKey="true">
             <Color>Black</Color>
@@ -2578,7 +2583,7 @@
           </StartCap>
         </VerticalLinePrimitive8>
         <VerticalLinePrimitive9 Ref="225" type="VerticalLinePrimitive" isKey="true">
-          <ClientRectangle>7.3,1.8,0.01,1</ClientRectangle>
+          <ClientRectangle>7.3,1.6,0.01,1</ClientRectangle>
           <Color>Black</Color>
           <EndCap Ref="226" type="Cap" isKey="true">
             <Color>Black</Color>
@@ -2592,7 +2597,7 @@
           </StartCap>
         </VerticalLinePrimitive9>
         <RectanglePrimitive1 Ref="228" type="RectanglePrimitive" isKey="true">
-          <ClientRectangle>0.1,3.4,7.2,0.4</ClientRectangle>
+          <ClientRectangle>0.1,3,7.2,0.4</ClientRectangle>
           <Color>Black</Color>
           <Guid>098b7e2ac6764932b3d6e2a7cb975bef</Guid>
           <Name>RectanglePrimitive1</Name>
@@ -2600,7 +2605,7 @@
           <Parent isRef="5" />
         </RectanglePrimitive1>
         <RectanglePrimitive2 Ref="229" type="RectanglePrimitive" isKey="true">
-          <ClientRectangle>0.1,12.1,7.2,1.5</ClientRectangle>
+          <ClientRectangle>0.1,11.1,7.2,1.1</ClientRectangle>
           <Color>Black</Color>
           <Guid>0a3fcdb3ef9245ed8d1de3617b68ec20</Guid>
           <Name>RectanglePrimitive2</Name>
@@ -2608,7 +2613,7 @@
           <Parent isRef="5" />
         </RectanglePrimitive2>
         <VerticalLinePrimitive1 Ref="230" type="VerticalLinePrimitive" isKey="true">
-          <ClientRectangle>3.7,12.1,0.01,1.5</ClientRectangle>
+          <ClientRectangle>3.7,11.1,0.01,1.1</ClientRectangle>
           <Color>Black</Color>
           <EndCap Ref="231" type="Cap" isKey="true">
             <Color>Black</Color>
@@ -2649,10 +2654,10 @@
     <value>Stimulsoft.Report.Dll</value>
   </ReferencedAssemblies>
   <ReportAlias>Bằng chữ :</ReportAlias>
-  <ReportChanged>7/30/2026 11:41:52 AM</ReportChanged>
+  <ReportChanged>9/15/2026 9:06:42 AM</ReportChanged>
   <ReportCreated>1/13/2017 10:44:54 AM</ReportCreated>
   <ReportFile>D:\Cyber\VINFAST_OMODA_QuangNgai\Repo\HDK24_TMV.mrt</ReportFile>
-  <ReportGuid>1c0d3b83cd7843d0834bc1a4abdf1969</ReportGuid>
+  <ReportGuid>9454860414e8405daf9aad8725801a2f</ReportGuid>
   <ReportImage isNull="true" />
   <ReportName>Bằng chữ :</ReportName>
   <ReportUnit>Inches</ReportUnit>

@@ -931,7 +931,7 @@
               <Name>Text44</Name>
               <Page isRef="5" />
               <Parent isRef="8" />
-              <Text>{Table0.Da_TT}</Text>
+              <Text>{IIF(Table0.Da_TT = 0,"",Table0.Da_TT)}</Text>
               <TextBrush>Black</TextBrush>
               <TextFormat Ref="54" type="NumberFormat" isKey="true">
                 <DecimalDigits>0</DecimalDigits>
@@ -940,7 +940,7 @@
                 <UseLocalSetting>False</UseLocalSetting>
               </TextFormat>
               <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
-              <Type>DataColumn</Type>
+              <Type>Expression</Type>
               <VertAlignment>Center</VertAlignment>
             </Text44>
             <Text45 Ref="55" type="Text" isKey="true">
@@ -954,7 +954,7 @@
               <Name>Text45</Name>
               <Page isRef="5" />
               <Parent isRef="8" />
-              <Text>{Table0.Con_Lai}</Text>
+              <Text>{IIF(Table0.Con_Lai = 0,"",Table0.Con_Lai)}</Text>
               <TextBrush>Black</TextBrush>
               <TextFormat Ref="56" type="NumberFormat" isKey="true">
                 <DecimalDigits>0</DecimalDigits>
@@ -963,7 +963,7 @@
                 <UseLocalSetting>False</UseLocalSetting>
               </TextFormat>
               <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
-              <Type>DataColumn</Type>
+              <Type>Expression</Type>
               <VertAlignment>Center</VertAlignment>
             </Text45>
             <Text46 Ref="57" type="Text" isKey="true">
@@ -2449,10 +2449,10 @@
     <value>Stimulsoft.Report.Dll</value>
   </ReferencedAssemblies>
   <ReportAlias>Bằng chữ :</ReportAlias>
-  <ReportChanged>9/12/2026 4:42:05 PM</ReportChanged>
+  <ReportChanged>9/16/2026 3:07:30 PM</ReportChanged>
   <ReportCreated>1/13/2017 10:44:54 AM</ReportCreated>
   <ReportFile>D:\1.CongViec\1.Cybersoft\1.Winform\1.BanGolive\2.FolderPhanMem\VINFAST_OMODA_QuangNgai\Repo\DHD00.mrt</ReportFile>
-  <ReportGuid>77d4a2b485ba4beaadeedf8797566f5a</ReportGuid>
+  <ReportGuid>0dabd86f6d6e4175a7cb087df6600f0c</ReportGuid>
   <ReportImage isNull="true" />
   <ReportName>Bằng chữ :</ReportName>
   <ReportUnit>Inches</ReportUnit>
