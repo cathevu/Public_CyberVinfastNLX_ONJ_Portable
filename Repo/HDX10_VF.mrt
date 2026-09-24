@@ -383,7 +383,7 @@
       <Components isList="true" count="18">
         <PageFooterBand1 Ref="6" type="PageFooterBand" isKey="true">
           <Brush>Transparent</Brush>
-          <ClientRectangle>0,16.52,6.69,0.3</ClientRectangle>
+          <ClientRectangle>0,14.41,6.69,0.3</ClientRectangle>
           <Components isList="true" count="3">
             <Text94 Ref="7" type="Text" isKey="true">
               <Brush>White</Brush>
@@ -398,6 +398,7 @@
               <Text>{PageNumber}</Text>
               <TextBrush>Black</TextBrush>
               <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
             </Text94>
             <Text27 Ref="8" type="Text" isKey="true">
               <AllowHtmlTags>True</AllowHtmlTags>
@@ -415,6 +416,7 @@
               <TextBrush>Black</TextBrush>
               <TextQuality>Wysiwyg</TextQuality>
               <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
             </Text27>
             <Text17 Ref="9" type="Text" isKey="true">
               <AllowHtmlTags>True</AllowHtmlTags>
@@ -431,6 +433,7 @@
               <TextBrush>Black</TextBrush>
               <TextQuality>Wysiwyg</TextQuality>
               <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
             </Text17>
           </Components>
           <Conditions isList="true" count="0" />
@@ -596,6 +599,7 @@
               <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
               <TextQuality>Wysiwyg</TextQuality>
               <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
             </Text70>
             <Text4 Ref="20" type="Text" isKey="true">
               <Brush>Transparent</Brush>
@@ -1436,6 +1440,7 @@ Các thông số kỹ thuật: Theo tiêu chuẩn của Nhà sản xuất &lt;br
               <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
               <TextQuality>Wysiwyg</TextQuality>
               <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
             </Text49>
             <Text66 Ref="76" type="Text" isKey="true">
               <Brush>Transparent</Brush>
@@ -1834,7 +1839,7 @@ Các thông số kỹ thuật: Theo tiêu chuẩn của Nhà sản xuất &lt;br
         <ReportSummaryBand4 Ref="123" type="ReportSummaryBand" isKey="true">
           <Brush>Transparent</Brush>
           <CanBreak>True</CanBreak>
-          <ClientRectangle>0,7.8,6.69,3.8</ClientRectangle>
+          <ClientRectangle>0,7.8,6.69,3.9</ClientRectangle>
           <Components isList="true" count="10">
             <Text2 Ref="124" type="Text" isKey="true">
               <Brush>Transparent</Brush>
@@ -1934,7 +1939,7 @@ Các thông số kỹ thuật: Theo tiêu chuẩn của Nhà sản xuất &lt;br
             <Text54 Ref="129" type="Text" isKey="true">
               <AllowHtmlTags>True</AllowHtmlTags>
               <Brush>Transparent</Brush>
-              <ClientRectangle>0,1.8,6.6,0.3</ClientRectangle>
+              <ClientRectangle>0,1.8,6.6,0.4</ClientRectangle>
               <Conditions isList="true" count="0" />
               <Font>Times New Roman,11.5</Font>
               <Guid>5c72fdb1eaac4bbe8f1f340c77ef1fec</Guid>
@@ -1953,7 +1958,7 @@ Các thông số kỹ thuật: Theo tiêu chuẩn của Nhà sản xuất &lt;br
             <Text86 Ref="130" type="Text" isKey="true">
               <AllowHtmlTags>True</AllowHtmlTags>
               <Brush>Transparent</Brush>
-              <ClientRectangle>0,2.1,6.6,0.2</ClientRectangle>
+              <ClientRectangle>0,2.2,6.6,0.2</ClientRectangle>
               <Conditions isList="true" count="0" />
               <Font>Times New Roman,11.5</Font>
               <Guid>c417d72070f94169bf68f506163d1752</Guid>
@@ -1967,11 +1972,12 @@ Các thông số kỹ thuật: Theo tiêu chuẩn của Nhà sản xuất &lt;br
               <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
               <TextQuality>Wysiwyg</TextQuality>
               <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
             </Text86>
             <Text61 Ref="131" type="Text" isKey="true">
               <AllowHtmlTags>True</AllowHtmlTags>
               <Brush>Transparent</Brush>
-              <ClientRectangle>0.2,2.3,6.4,0.4</ClientRectangle>
+              <ClientRectangle>0.2,2.4,6.4,0.4</ClientRectangle>
               <Conditions isList="true" count="0" />
               <Font>Times New Roman,11.5</Font>
               <Guid>fe86996790fb44b199fd01f43c58c774</Guid>
@@ -1985,11 +1991,12 @@ Các thông số kỹ thuật: Theo tiêu chuẩn của Nhà sản xuất &lt;br
               <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
               <TextQuality>Wysiwyg</TextQuality>
               <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
             </Text61>
             <Text83 Ref="132" type="Text" isKey="true">
               <AllowHtmlTags>True</AllowHtmlTags>
               <Brush>Transparent</Brush>
-              <ClientRectangle>0.2,2.7,6.4,1.1</ClientRectangle>
+              <ClientRectangle>0.2,2.8,6.4,1.1</ClientRectangle>
               <Conditions isList="true" count="0" />
               <Font>Times New Roman,11.5</Font>
               <Guid>15a6fc5c124c482fba5beec04fff6c41</Guid>
@@ -2003,11 +2010,12 @@ Các thông số kỹ thuật: Theo tiêu chuẩn của Nhà sản xuất &lt;br
               <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
               <TextQuality>Wysiwyg</TextQuality>
               <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
             </Text83>
             <Text84 Ref="133" type="Text" isKey="true">
               <Brush>Transparent</Brush>
               <CanGrow>True</CanGrow>
-              <ClientRectangle>0,2.7,0.2,0.2</ClientRectangle>
+              <ClientRectangle>0,2.8,0.2,0.2</ClientRectangle>
               <Conditions isList="true" count="0" />
               <Font>Times New Roman,11.5</Font>
               <Guid>889e3d6c2c7d40dc9b2f8a7e223389fd</Guid>
@@ -2211,6 +2219,7 @@ Các thông số kỹ thuật: Theo tiêu chuẩn của Nhà sản xuất &lt;br
               <TextBrush>Black</TextBrush>
               <TextQuality>Wysiwyg</TextQuality>
               <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
             </Text82>
             <Text93 Ref="167" type="Text" isKey="true">
               <Brush>White</Brush>
@@ -2226,6 +2235,7 @@ Các thông số kỹ thuật: Theo tiêu chuẩn của Nhà sản xuất &lt;br
               <Text>{PageNumber}</Text>
               <TextBrush>Black</TextBrush>
               <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
             </Text93>
             <Text11 Ref="168" type="Text" isKey="true">
               <AllowHtmlTags>True</AllowHtmlTags>
@@ -2243,6 +2253,7 @@ Các thông số kỹ thuật: Theo tiêu chuẩn của Nhà sản xuất &lt;br
               <TextBrush>Black</TextBrush>
               <TextQuality>Wysiwyg</TextQuality>
               <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
             </Text11>
           </Components>
           <Conditions isList="true" count="0" />
@@ -2523,6 +2534,7 @@ Các thông số kỹ thuật: Theo tiêu chuẩn của Nhà sản xuất &lt;br
               <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
               <TextQuality>Wysiwyg</TextQuality>
               <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
             </Text26>
             <Text95 Ref="185" type="Text" isKey="true">
               <AllowHtmlTags>True</AllowHtmlTags>
@@ -2542,6 +2554,7 @@ Các thông số kỹ thuật: Theo tiêu chuẩn của Nhà sản xuất &lt;br
               <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
               <TextQuality>Wysiwyg</TextQuality>
               <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
             </Text95>
             <Text142 Ref="186" type="Text" isKey="true">
               <AllowHtmlTags>True</AllowHtmlTags>
@@ -2561,6 +2574,7 @@ Các thông số kỹ thuật: Theo tiêu chuẩn của Nhà sản xuất &lt;br
               <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
               <TextQuality>Wysiwyg</TextQuality>
               <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
             </Text142>
             <Text98 Ref="187" type="Text" isKey="true">
               <Brush>Transparent</Brush>
@@ -2683,6 +2697,7 @@ Các thông số kỹ thuật: Theo tiêu chuẩn của Nhà sản xuất &lt;br
               <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
               <TextQuality>Wysiwyg</TextQuality>
               <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
             </Text85>
             <Text77 Ref="196" type="Text" isKey="true">
               <Brush>Transparent</Brush>
@@ -2705,6 +2720,7 @@ Sau thời hạn nêu tại Điều 3.2.(a), nếu Bên Bán không nhận đư�
               <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
               <TextQuality>Wysiwyg</TextQuality>
               <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
             </Text77>
             <Text107 Ref="197" type="Text" isKey="true">
               <Brush>Transparent</Brush>
@@ -2999,6 +3015,7 @@ Sau thời hạn nêu tại Điều 3.2.(a), nếu Bên Bán không nhận đư�
               <TextBrush>Black</TextBrush>
               <TextQuality>Wysiwyg</TextQuality>
               <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
             </Text10>
             <Text15 Ref="221" type="Text" isKey="true">
               <Brush>White</Brush>
@@ -3014,6 +3031,7 @@ Sau thời hạn nêu tại Điều 3.2.(a), nếu Bên Bán không nhận đư�
               <Text>{PageNumber}</Text>
               <TextBrush>Black</TextBrush>
               <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
             </Text15>
           </Components>
           <Conditions isList="true" count="0" />
@@ -3417,6 +3435,7 @@ Sau thời hạn nêu tại Điều 3.2.(a), nếu Bên Bán không nhận đư�
               <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
               <TextQuality>Wysiwyg</TextQuality>
               <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
             </Text190>
             <Text191 Ref="244" type="Text" isKey="true">
               <Brush>Transparent</Brush>
@@ -3488,6 +3507,7 @@ Sau thời hạn nêu tại Điều 3.2.(a), nếu Bên Bán không nhận đư�
               <TextBrush>Black</TextBrush>
               <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
               <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
             </Text194>
             <Text195 Ref="248" type="Text" isKey="true">
               <AllowHtmlTags>True</AllowHtmlTags>
@@ -3508,6 +3528,7 @@ Sau thời hạn nêu tại Điều 3.2.(a), nếu Bên Bán không nhận đư�
               <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
               <TextQuality>Wysiwyg</TextQuality>
               <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
             </Text195>
             <Text196 Ref="249" type="Text" isKey="true">
               <Brush>Transparent</Brush>
@@ -3727,7 +3748,7 @@ Sau thời hạn nêu tại Điều 3.2.(a), nếu Bên Bán không nhận đư�
             <Text20 Ref="265" type="Text" isKey="true">
               <AllowHtmlTags>True</AllowHtmlTags>
               <Brush>Transparent</Brush>
-              <ClientRectangle>0,-0.02,5.9,0.3</ClientRectangle>
+              <ClientRectangle>0,0,5.9,0.3</ClientRectangle>
               <Conditions isList="true" count="0" />
               <Font>Times New Roman,8</Font>
               <Guid>6088ef74499e4c4290096ef4a2876fba</Guid>
@@ -3744,7 +3765,7 @@ Sau thời hạn nêu tại Điều 3.2.(a), nếu Bên Bán không nhận đư�
             </Text20>
             <Text21 Ref="266" type="Text" isKey="true">
               <Brush>White</Brush>
-              <ClientRectangle>6.4,0.08,0.2,0.1</ClientRectangle>
+              <ClientRectangle>6.4,0.1,0.2,0.1</ClientRectangle>
               <Conditions isList="true" count="0" />
               <Font>Times New Roman,8</Font>
               <Guid>39f14666ddea4185a90f60b480728197</Guid>
@@ -3788,11 +3809,12 @@ Sau thời hạn nêu tại Điều 3.2.(a), nếu Bên Bán không nhận đư�
               <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
               <TextQuality>Wysiwyg</TextQuality>
               <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
             </Text137>
             <Text138 Ref="269" type="Text" isKey="true">
               <AllowHtmlTags>True</AllowHtmlTags>
               <Brush>Transparent</Brush>
-              <ClientRectangle>0.39,2.4,2.2,0.2</ClientRectangle>
+              <ClientRectangle>0.4,2.4,2.2,0.2</ClientRectangle>
               <Conditions isList="true" count="0" />
               <Font>Times New Roman,11.5,Bold</Font>
               <Guid>16d415b6c2f141c2b2b42e81c9d5aaef</Guid>
@@ -3810,7 +3832,7 @@ Sau thời hạn nêu tại Điều 3.2.(a), nếu Bên Bán không nhận đư�
             <Text139 Ref="270" type="Text" isKey="true">
               <AllowHtmlTags>True</AllowHtmlTags>
               <Brush>Transparent</Brush>
-              <ClientRectangle>3.89,2.4,2.3,0.2</ClientRectangle>
+              <ClientRectangle>3.9,2.4,2.3,0.2</ClientRectangle>
               <Conditions isList="true" count="0" />
               <Font>Times New Roman,11.5,Bold</Font>
               <Guid>ca25562f406d4a85b9996735b28d338e</Guid>
@@ -3830,7 +3852,7 @@ Sau thời hạn nêu tại Điều 3.2.(a), nếu Bên Bán không nhận đư�
               <Brush>Transparent</Brush>
               <CanBreak>True</CanBreak>
               <CanGrow>True</CanGrow>
-              <ClientRectangle>0.6,0.2,6,0.4</ClientRectangle>
+              <ClientRectangle>0.3,0.2,6.3,0.4</ClientRectangle>
               <Conditions isList="true" count="0" />
               <Font>Times New Roman,11.5</Font>
               <Guid>a1e4b992fa364202930029efadc96720</Guid>
@@ -3844,6 +3866,7 @@ Sau thời hạn nêu tại Điều 3.2.(a), nếu Bên Bán không nhận đư�
               <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
               <TextQuality>Wysiwyg</TextQuality>
               <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
             </Text140>
             <Text141 Ref="272" type="Text" isKey="true">
               <AllowHtmlTags>True</AllowHtmlTags>
@@ -3862,11 +3885,12 @@ Sau thời hạn nêu tại Điều 3.2.(a), nếu Bên Bán không nhận đư�
               <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
               <TextQuality>Wysiwyg</TextQuality>
               <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
             </Text141>
             <Text143 Ref="273" type="Text" isKey="true">
               <AllowHtmlTags>True</AllowHtmlTags>
               <Brush>Transparent</Brush>
-              <ClientRectangle>0.6,0.6,6,0.9</ClientRectangle>
+              <ClientRectangle>0.3,0.6,6.3,0.7</ClientRectangle>
               <Conditions isList="true" count="0" />
               <Font>Times New Roman,11.5</Font>
               <Guid>13c70ae6d855433bb10635d76e21a0c0</Guid>
@@ -3880,6 +3904,7 @@ Sau thời hạn nêu tại Điều 3.2.(a), nếu Bên Bán không nhận đư�
               <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
               <TextQuality>Wysiwyg</TextQuality>
               <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
             </Text143>
             <Text144 Ref="274" type="Text" isKey="true">
               <AllowHtmlTags>True</AllowHtmlTags>
@@ -3902,7 +3927,7 @@ Sau thời hạn nêu tại Điều 3.2.(a), nếu Bên Bán không nhận đư�
             <Text145 Ref="275" type="Text" isKey="true">
               <AllowHtmlTags>True</AllowHtmlTags>
               <Brush>Transparent</Brush>
-              <ClientRectangle>0.6,1.5,6,0.2</ClientRectangle>
+              <ClientRectangle>0.3,1.5,6.3,0.2</ClientRectangle>
               <Conditions isList="true" count="0" />
               <Font>Times New Roman,11.5</Font>
               <Guid>f448b5899c8247469da4361778ada693</Guid>
@@ -3916,6 +3941,7 @@ Sau thời hạn nêu tại Điều 3.2.(a), nếu Bên Bán không nhận đư�
               <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
               <TextQuality>Wysiwyg</TextQuality>
               <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
             </Text145>
             <Text146 Ref="276" type="Text" isKey="true">
               <AllowHtmlTags>True</AllowHtmlTags>
@@ -3934,11 +3960,12 @@ Sau thời hạn nêu tại Điều 3.2.(a), nếu Bên Bán không nhận đư�
               <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
               <TextQuality>Wysiwyg</TextQuality>
               <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
             </Text146>
             <Text147 Ref="277" type="Text" isKey="true">
               <AllowHtmlTags>True</AllowHtmlTags>
               <Brush>Transparent</Brush>
-              <ClientRectangle>0.39,2.2,2.2,0.2</ClientRectangle>
+              <ClientRectangle>0.4,2.2,2.2,0.2</ClientRectangle>
               <Conditions isList="true" count="0" />
               <Font>Times New Roman,11.5,Bold</Font>
               <Guid>9be3966fe3ce413cacc8bf5805f98806</Guid>
@@ -3956,7 +3983,7 @@ Sau thời hạn nêu tại Điều 3.2.(a), nếu Bên Bán không nhận đư�
             <Text148 Ref="278" type="Text" isKey="true">
               <AllowHtmlTags>True</AllowHtmlTags>
               <Brush>Transparent</Brush>
-              <ClientRectangle>3.89,2.2,2.3,0.2</ClientRectangle>
+              <ClientRectangle>3.9,2.2,2.3,0.2</ClientRectangle>
               <Conditions isList="true" count="0" />
               <Font>Times New Roman,11.5,Bold</Font>
               <Guid>b41f3263496848f5a6970f74474f8c04</Guid>
@@ -4037,10 +4064,10 @@ Sau thời hạn nêu tại Điều 3.2.(a), nếu Bên Bán không nhận đư�
     <value>Stimulsoft.Report.Dll</value>
   </ReferencedAssemblies>
   <ReportAlias>Report</ReportAlias>
-  <ReportChanged>9/17/2026 3:45:24 PM</ReportChanged>
+  <ReportChanged>9/22/2026 4:37:36 PM</ReportChanged>
   <ReportCreated>1/11/2017 3:48:09 PM</ReportCreated>
-  <ReportFile>D:\Software\VINFAST_OMODA_QuangNgai\VINFAST_OMODA_QuangNgai\Repo\HDX10_VF.mrt</ReportFile>
-  <ReportGuid>722196d7dd76457792e7c95507ba862e</ReportGuid>
+  <ReportFile>D:\Cyber\VINFAST_OMODA_QuangNgai\Repo\HDX10_VF.mrt</ReportFile>
+  <ReportGuid>97715f5a81d64ff48bc08aaed3f8c96f</ReportGuid>
   <ReportImage isNull="true" />
   <ReportName>Report</ReportName>
   <ReportUnit>Inches</ReportUnit>
