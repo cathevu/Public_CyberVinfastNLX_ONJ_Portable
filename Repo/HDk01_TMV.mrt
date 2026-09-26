@@ -6,7 +6,7 @@
     <DataSources isList="true" count="3">
       <Table0 Ref="2" type="DataTableSource" isKey="true">
         <Alias>Table0</Alias>
-        <Columns isList="true" count="193">
+        <Columns isList="true" count="199">
           <value>Ma_Dvcs,System.String</value>
           <value>Stt_Rec,System.String</value>
           <value>Ma_GD,System.String</value>
@@ -200,6 +200,12 @@
           <value>Ten_TTCP_H,System.String</value>
           <value>Dia_Chi_TTCP,System.String</value>
           <value>Noi_Dung_CK,System.String</value>
+          <value>Ngay_Gio_Tao,System.String</value>
+          <value>Ngay_BDSC_Format,System.String</value>
+          <value>Ngay_Gx_Format,System.String</value>
+          <value>Ngay_KTSC_Format,System.String</value>
+          <value>Ngay_Mua_Format,System.String</value>
+          <value>Ngay_KTBH_Format,System.String</value>
         </Columns>
         <Dictionary isRef="1" />
         <Name>Table0</Name>
@@ -504,7 +510,7 @@
               <Name>Text40</Name>
               <Page isRef="5" />
               <Parent isRef="6" />
-              <Text>{IIF(Table0.Ngay_Mua="01/01/1900","",Table0.Ngay_Mua)}</Text>
+              <Text>{IIF(Table0.Ngay_Mua_Format="00:00 01/01/1900","",Table0.Ngay_Mua_Format)}</Text>
               <TextBrush>Black</TextBrush>
               <TextFormat Ref="20" type="DateFormat" isKey="true">
                 <StringFormat>dd/MM/yyyy</StringFormat>
@@ -1283,7 +1289,7 @@
               <Name>Text138</Name>
               <Page isRef="5" />
               <Parent isRef="6" />
-              <Text>{IIF(Table0.Ngay_Vao="01/01/1900","",Table0.Ngay_Vao)}</Text>
+              <Text>{IIF(Table0.Ngay_Gio_Tao="01/01/1900","",Table0.Ngay_Gio_Tao)}</Text>
               <TextBrush>Black</TextBrush>
               <TextFormat Ref="73" type="DateFormat" isKey="true">
                 <StringFormat>dd/MM/yyyy</StringFormat>
@@ -1303,7 +1309,7 @@
               <Name>Text139</Name>
               <Page isRef="5" />
               <Parent isRef="6" />
-              <Text>{IIF(Table0.Ngay_BDSC="01/01/1900","",Table0.Ngay_BDSC)}</Text>
+              <Text>{IIF(Table0.Ngay_BDSC_Format="01/01/1900","",Table0.Ngay_BDSC_Format)}</Text>
               <TextBrush>Black</TextBrush>
               <TextFormat Ref="75" type="DateFormat" isKey="true">
                 <StringFormat>dd/MM/yyyy</StringFormat>
@@ -1357,7 +1363,7 @@
               <Name>Text142</Name>
               <Page isRef="5" />
               <Parent isRef="6" />
-              <Text>{IIF(Table0.Ngay_KTBH="01/01/1900","",Table0.Ngay_KTBH)}</Text>
+              <Text>{IIF(Table0.Ngay_KTBH_Format="00:00 01/01/1900","",Table0.Ngay_KTBH_Format)}</Text>
               <TextBrush>Black</TextBrush>
               <TextFormat Ref="79" type="DateFormat" isKey="true">
                 <StringFormat>dd/MM/yyyy</StringFormat>
@@ -1377,7 +1383,7 @@
               <Name>Text143</Name>
               <Page isRef="5" />
               <Parent isRef="6" />
-              <Text>{IIF(Table0.Ngay_Gx="01/01/1900","",Table0.Ngay_Gx)}</Text>
+              <Text>{IIF(Table0.Ngay_Gx_Format="01/01/1900","",Table0.Ngay_Gx_Format)}</Text>
               <TextBrush>Black</TextBrush>
               <TextFormat Ref="81" type="DateFormat" isKey="true">
                 <StringFormat>dd/MM/yyyy</StringFormat>
@@ -5468,7 +5474,7 @@
         <ReportSummaryBand1 Ref="583" type="ReportSummaryBand" isKey="true">
           <Brush>Transparent</Brush>
           <CanBreak>True</CanBreak>
-          <ClientRectangle>0,8.7,8.07,5.2</ClientRectangle>
+          <ClientRectangle>0,8.7,8.07,5</ClientRectangle>
           <Components isList="true" count="49">
             <Text83 Ref="584" type="Text" isKey="true">
               <Brush>Transparent</Brush>
@@ -6996,10 +7002,10 @@
     <value>Stimulsoft.Report.Dll</value>
   </ReferencedAssemblies>
   <ReportAlias>Bằng chữ :</ReportAlias>
-  <ReportChanged>9/18/2026 10:34:30 AM</ReportChanged>
+  <ReportChanged>9/26/2026 10:14:34 AM</ReportChanged>
   <ReportCreated>1/13/2017 10:44:54 AM</ReportCreated>
-  <ReportFile>D:\1.CongViec\1.Cybersoft\1.Winform\1.BanGolive\2.FolderPhanMem\VINFAST_OMODA_QuangNgai\Repo\HDK01_TMV.mrt</ReportFile>
-  <ReportGuid>d3f0e7b6065d4b21bfbcbebee0960a5f</ReportGuid>
+  <ReportFile>D:\Cyber\VINFAST_OMODA_QuangNgai\Repo\HDK01_TMV.mrt</ReportFile>
+  <ReportGuid>b93f80e86c8d4c3c9dcf810010a79bdc</ReportGuid>
   <ReportImage isNull="true" />
   <ReportName>Bằng chữ :</ReportName>
   <ReportUnit>Inches</ReportUnit>
