@@ -6,7 +6,7 @@
     <DataSources isList="true" count="3">
       <Table0 Ref="2" type="DataTableSource" isKey="true">
         <Alias>Table0</Alias>
-        <Columns isList="true" count="193">
+        <Columns isList="true" count="199">
           <value>Ma_Dvcs,System.String</value>
           <value>Stt_Rec,System.String</value>
           <value>Ma_GD,System.String</value>
@@ -200,6 +200,12 @@
           <value>Ten_TTCP_H,System.String</value>
           <value>Dia_Chi_TTCP,System.String</value>
           <value>Noi_Dung_CK,System.String</value>
+          <value>Ngay_Gio_Tao,System.String</value>
+          <value>Ngay_BDSC_Format,System.String</value>
+          <value>Ngay_Gx_Format,System.String</value>
+          <value>Ngay_KTSC_Format,System.String</value>
+          <value>Ngay_Mua_Format,System.String</value>
+          <value>Ngay_KTBH_Format,System.String</value>
         </Columns>
         <Dictionary isRef="1" />
         <Name>Table0</Name>
@@ -1183,7 +1189,7 @@
               <Name>Text139</Name>
               <Page isRef="5" />
               <Parent isRef="6" />
-              <Text>{IIF(Table0.Ngay_Vao="01/01/1900","",Table0.Ngay_Vao)}</Text>
+              <Text>{IIF(Table0.Ngay_Gio_Tao="01/01/1900","",Table0.Ngay_Gio_Tao)}</Text>
               <TextBrush>Black</TextBrush>
               <TextFormat Ref="66" type="DateFormat" isKey="true">
                 <StringFormat>dd/MM/yyyy</StringFormat>
@@ -1241,7 +1247,7 @@
               <Name>Text143</Name>
               <Page isRef="5" />
               <Parent isRef="6" />
-              <Text>{IIF(Table0.Ngay_Gx="01/01/1900","",Table0.Ngay_Gx)}</Text>
+              <Text>{IIF(Table0.Ngay_Gx_Format="01/01/1900","",Table0.Ngay_Gx_Format)}</Text>
               <TextBrush>Black</TextBrush>
               <TextFormat Ref="71" type="DateFormat" isKey="true">
                 <StringFormat>dd/MM/yyyy</StringFormat>
@@ -7342,10 +7348,10 @@ số km …………… hoặc vào ngày …………… </Text>
     <value>Stimulsoft.Report.Dll</value>
   </ReferencedAssemblies>
   <ReportAlias>Bằng chữ :</ReportAlias>
-  <ReportChanged>9/21/2026 2:46:13 PM</ReportChanged>
+  <ReportChanged>9/27/2026 2:51:29 PM</ReportChanged>
   <ReportCreated>1/13/2017 10:44:54 AM</ReportCreated>
-  <ReportFile>D:\Cyber\VINFAST_OMODA_QuangNgai\Repo\HDK06_VF.mrt</ReportFile>
-  <ReportGuid>1f199cd5f9f84b27884cd15f4c3b25db</ReportGuid>
+  <ReportFile>D:\1.CongViec\1.Cybersoft\1.Winform\1.BanGolive\2.FolderPhanMem\VINFAST_OMODA_QuangNgai\Repo\HDK06_VF.mrt</ReportFile>
+  <ReportGuid>27e30929712e4cfa88719570527b2166</ReportGuid>
   <ReportImage isNull="true" />
   <ReportName>Bằng chữ :</ReportName>
   <ReportUnit>Millimeters</ReportUnit>
