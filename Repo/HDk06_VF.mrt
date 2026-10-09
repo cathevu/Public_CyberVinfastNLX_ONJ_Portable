@@ -732,7 +732,7 @@
               <Name>Text34</Name>
               <Page isRef="5" />
               <Parent isRef="6" />
-              <Text>{ToUpperCase(Table0.Ten_kh)}</Text>
+              <Text>{ToUpperCase(Table0.Ten_KhVat)}</Text>
               <TextBrush>Black</TextBrush>
               <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
               <Type>Expression</Type>
@@ -7349,10 +7349,10 @@ số km …………… hoặc vào ngày …………… </Text>
     <value>Stimulsoft.Report.Dll</value>
   </ReferencedAssemblies>
   <ReportAlias>Bằng chữ :</ReportAlias>
-  <ReportChanged>10/6/2026 5:02:54 PM</ReportChanged>
+  <ReportChanged>10/9/2026 1:57:51 PM</ReportChanged>
   <ReportCreated>1/13/2017 10:44:54 AM</ReportCreated>
   <ReportFile>D:\1.CongViec\1.Cybersoft\1.Winform\1.BanGolive\2.FolderPhanMem\VINFAST_OMODA_QuangNgai\Repo\HDK06_VF.mrt</ReportFile>
-  <ReportGuid>c90bca6a3fca405b8195704f9d88eae9</ReportGuid>
+  <ReportGuid>ea26708bb6cc4936a8942375bb3b4b73</ReportGuid>
   <ReportImage isNull="true" />
   <ReportName>Bằng chữ :</ReportName>
   <ReportUnit>Millimeters</ReportUnit>

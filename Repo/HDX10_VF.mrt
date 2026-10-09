@@ -2876,12 +2876,12 @@ Các thông số kỹ thuật: Theo tiêu chuẩn của Nhà sản xuất &lt;br
         <ReportSummaryBand4 Ref="220" type="ReportSummaryBand" isKey="true">
           <Brush>Transparent</Brush>
           <CanBreak>True</CanBreak>
-          <ClientRectangle>0,0.2,7.13,0.7</ClientRectangle>
+          <ClientRectangle>0,0.2,7.13,0.6</ClientRectangle>
           <Components isList="true" count="5">
             <Text14 Ref="221" type="Text" isKey="true">
               <Brush>Transparent</Brush>
               <CanGrow>True</CanGrow>
-              <ClientRectangle>0,0.3,0.3,0.2</ClientRectangle>
+              <ClientRectangle>0,0.2,0.3,0.2</ClientRectangle>
               <Conditions isList="true" count="0" />
               <Font>Times New Roman,12</Font>
               <Guid>3635b3b7a0d947d09ed267fefeb64a71</Guid>
@@ -2899,7 +2899,7 @@ Các thông số kỹ thuật: Theo tiêu chuẩn của Nhà sản xuất &lt;br
             <Text15 Ref="222" type="Text" isKey="true">
               <Brush>Transparent</Brush>
               <CanGrow>True</CanGrow>
-              <ClientRectangle>0.3,0.3,6.7,0.2</ClientRectangle>
+              <ClientRectangle>0.3,0.2,6.7,0.2</ClientRectangle>
               <Conditions isList="true" count="0" />
               <Font>Times New Roman,12</Font>
               <Guid>b5d8ba7abdb84ef8b2c954b2b635d5b3</Guid>
@@ -2917,7 +2917,7 @@ Các thông số kỹ thuật: Theo tiêu chuẩn của Nhà sản xuất &lt;br
             <Text17 Ref="223" type="Text" isKey="true">
               <Brush>Transparent</Brush>
               <CanGrow>True</CanGrow>
-              <ClientRectangle>0,0.5,0.3,0.2</ClientRectangle>
+              <ClientRectangle>0,0.4,0.3,0.2</ClientRectangle>
               <Conditions isList="true" count="0" />
               <Font>Times New Roman,12</Font>
               <Guid>002c3404bf044646806ca611ac1190e7</Guid>
@@ -2935,7 +2935,7 @@ Các thông số kỹ thuật: Theo tiêu chuẩn của Nhà sản xuất &lt;br
             <Text18 Ref="224" type="Text" isKey="true">
               <Brush>Transparent</Brush>
               <CanGrow>True</CanGrow>
-              <ClientRectangle>0.3,0.5,6.7,0.2</ClientRectangle>
+              <ClientRectangle>0.3,0.4,6.7,0.2</ClientRectangle>
               <Conditions isList="true" count="0" />
               <Font>Times New Roman,12</Font>
               <Guid>ffe6cfba69dd4bb5a7df06495be2704b</Guid>
@@ -2953,7 +2953,7 @@ Các thông số kỹ thuật: Theo tiêu chuẩn của Nhà sản xuất &lt;br
             <Text20 Ref="225" type="Text" isKey="true">
               <Brush>Transparent</Brush>
               <CanGrow>True</CanGrow>
-              <ClientRectangle>0,0.1,7,0.2</ClientRectangle>
+              <ClientRectangle>0,0,7,0.2</ClientRectangle>
               <Conditions isList="true" count="0" />
               <Font>Times New Roman,12,Bold</Font>
               <Guid>cf75f12650ef4c10b1b6e1ed51ad6017</Guid>
@@ -2978,7 +2978,7 @@ Các thông số kỹ thuật: Theo tiêu chuẩn của Nhà sản xuất &lt;br
         <ReportSummaryBand15 Ref="226" type="ReportSummaryBand" isKey="true">
           <Brush>Transparent</Brush>
           <CanBreak>True</CanBreak>
-          <ClientRectangle>0,1.3,7.13,5</ClientRectangle>
+          <ClientRectangle>0,1.2,7.13,5</ClientRectangle>
           <Components isList="true" count="19">
             <Text173 Ref="227" type="Text" isKey="true">
               <Brush>Transparent</Brush>
@@ -3348,7 +3348,7 @@ Các thông số kỹ thuật: Theo tiêu chuẩn của Nhà sản xuất &lt;br
         <ReportSummaryBand16 Ref="246" type="ReportSummaryBand" isKey="true">
           <Brush>Transparent</Brush>
           <CanBreak>True</CanBreak>
-          <ClientRectangle>0,6.7,7.13,2.6</ClientRectangle>
+          <ClientRectangle>0,6.6,7.13,2.6</ClientRectangle>
           <Components isList="true" count="7">
             <Text190 Ref="247" type="Text" isKey="true">
               <AllowHtmlTags>True</AllowHtmlTags>
@@ -3490,7 +3490,7 @@ Các thông số kỹ thuật: Theo tiêu chuẩn của Nhà sản xuất &lt;br
         <ReportSummaryBand17 Ref="254" type="ReportSummaryBand" isKey="true">
           <Brush>Transparent</Brush>
           <CanBreak>True</CanBreak>
-          <ClientRectangle>0,9.7,7.13,2.5</ClientRectangle>
+          <ClientRectangle>0,9.6,7.13,2.5</ClientRectangle>
           <Components isList="true" count="6">
             <Text197 Ref="255" type="Text" isKey="true">
               <AllowHtmlTags>True</AllowHtmlTags>
@@ -4038,10 +4038,10 @@ Các thông số kỹ thuật: Theo tiêu chuẩn của Nhà sản xuất &lt;br
     <value>Stimulsoft.Report.Dll</value>
   </ReferencedAssemblies>
   <ReportAlias>Report</ReportAlias>
-  <ReportChanged>10/9/2026 1:43:46 PM</ReportChanged>
+  <ReportChanged>10/9/2026 2:29:54 PM</ReportChanged>
   <ReportCreated>1/11/2017 3:48:09 PM</ReportCreated>
   <ReportFile>D:\1.CongViec\1.Cybersoft\1.Winform\1.BanGolive\2.FolderPhanMem\VINFAST_OMODA_QuangNgai\Repo\HDX10_VF.mrt</ReportFile>
-  <ReportGuid>73f61efbaf124dd2ab6549bb4777c4f7</ReportGuid>
+  <ReportGuid>27e9bd81d44a4af4a07336fa258efe63</ReportGuid>
   <ReportImage isNull="true" />
   <ReportName>Report</ReportName>
   <ReportUnit>Inches</ReportUnit>

@@ -6,7 +6,7 @@
     <DataSources isList="true" count="3">
       <Table0 Ref="2" type="DataTableSource" isKey="true">
         <Alias>Table0</Alias>
-        <Columns isList="true" count="199">
+        <Columns isList="true" count="202">
           <value>Ma_Dvcs,System.String</value>
           <value>Stt_Rec,System.String</value>
           <value>Ma_GD,System.String</value>
@@ -90,6 +90,7 @@
           <value>Gio_NX,System.String</value>
           <value>Ck_HangKH,System.Decimal</value>
           <value>T_TT_NT_SauCk_HangKH,System.Decimal</value>
+          <value>Ma_KTV1_H,System.String</value>
           <value>Ten_HS,System.String</value>
           <value>Ten_Post,System.String</value>
           <value>Ten_TP,System.String</value>
@@ -141,6 +142,7 @@
           <value>Ma_TP,System.String</value>
           <value>Dien_Thoai,System.String</value>
           <value>Fax,System.String</value>
+          <value>CCCD,System.String</value>
           <value>E_Mail,System.String</value>
           <value>Ngay_Mua,System.DateTime</value>
           <value>Ma_MDSD,System.String</value>
@@ -195,6 +197,7 @@
           <value>Ten_TT,System.String</value>
           <value>DT_CVDV,System.String</value>
           <value>Thue_Suat,System.Decimal</value>
+          <value>T_C_TT,System.Decimal</value>
           <value>Bang_Chu,System.String</value>
           <value>Bang_Chu_T_C,System.String</value>
           <value>Ten_TTCP_H,System.String</value>
@@ -858,7 +861,7 @@
               <Name>Text34</Name>
               <Page isRef="5" />
               <Parent isRef="6" />
-              <Text>{ToUpperCase(Table0.Ten_kh)}</Text>
+              <Text>{ToUpperCase(Table0.Ten_KhVat)}</Text>
               <TextBrush>Black</TextBrush>
               <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
               <Type>Expression</Type>
@@ -4063,10 +4066,10 @@ lần</Text>
     <value>Stimulsoft.Report.Dll</value>
   </ReferencedAssemblies>
   <ReportAlias>Bằng chữ :</ReportAlias>
-  <ReportChanged>9/26/2026 10:05:06 AM</ReportChanged>
+  <ReportChanged>10/9/2026 1:57:25 PM</ReportChanged>
   <ReportCreated>1/13/2017 10:44:54 AM</ReportCreated>
-  <ReportFile>D:\Cyber\VINFAST_OMODA_QuangNgai\Repo\HDK02_VF.mrt</ReportFile>
-  <ReportGuid>97669240bac94e3a8d40c1fda655d0e3</ReportGuid>
+  <ReportFile>D:\1.CongViec\1.Cybersoft\1.Winform\1.BanGolive\2.FolderPhanMem\VINFAST_OMODA_QuangNgai\Repo\HDK02_VF.mrt</ReportFile>
+  <ReportGuid>2fc46bd6cb3048caa2d7833b01e63d70</ReportGuid>
   <ReportImage isNull="true" />
   <ReportName>Bằng chữ :</ReportName>
   <ReportUnit>Inches</ReportUnit>

@@ -6,7 +6,7 @@
     <DataSources isList="true" count="3">
       <Table0 Ref="2" type="DataTableSource" isKey="true">
         <Alias>Table0</Alias>
-        <Columns isList="true" count="199">
+        <Columns isList="true" count="202">
           <value>Ma_Dvcs,System.String</value>
           <value>Stt_Rec,System.String</value>
           <value>Ma_GD,System.String</value>
@@ -90,6 +90,7 @@
           <value>Gio_NX,System.String</value>
           <value>Ck_HangKH,System.Decimal</value>
           <value>T_TT_NT_SauCk_HangKH,System.Decimal</value>
+          <value>Ma_KTV1_H,System.String</value>
           <value>Ten_HS,System.String</value>
           <value>Ten_Post,System.String</value>
           <value>Ten_TP,System.String</value>
@@ -141,6 +142,7 @@
           <value>Ma_TP,System.String</value>
           <value>Dien_Thoai,System.String</value>
           <value>Fax,System.String</value>
+          <value>CCCD,System.String</value>
           <value>E_Mail,System.String</value>
           <value>Ngay_Mua,System.DateTime</value>
           <value>Ma_MDSD,System.String</value>
@@ -195,6 +197,7 @@
           <value>Ten_TT,System.String</value>
           <value>DT_CVDV,System.String</value>
           <value>Thue_Suat,System.Decimal</value>
+          <value>T_C_TT,System.Decimal</value>
           <value>Bang_Chu,System.String</value>
           <value>Bang_Chu_T_C,System.String</value>
           <value>Ten_TTCP_H,System.String</value>
@@ -664,7 +667,7 @@
               <Name>Text34</Name>
               <Page isRef="5" />
               <Parent isRef="6" />
-              <Text>{Table0.Ten_kh}</Text>
+              <Text>{Table0.Ten_KhVat}</Text>
               <TextBrush>Black</TextBrush>
               <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
               <Type>Expression</Type>
@@ -755,12 +758,12 @@
               <Parent isRef="6" />
               <Text>{Table0.Ten_LX}</Text>
               <TextBrush>Black</TextBrush>
-              <Type>Expression</Type>
+              <Type>DataColumn</Type>
               <VertAlignment>Center</VertAlignment>
             </Text106>
             <Text5 Ref="38" type="Text" isKey="true">
               <Brush>Transparent</Brush>
-              <ClientRectangle>0.8,1.6,1.1,0.2</ClientRectangle>
+              <ClientRectangle>0.8,1.6,3.6,0.2</ClientRectangle>
               <Conditions isList="true" count="0" />
               <Font>Times New Roman,8,Bold</Font>
               <Guid>e2d3ee677de944cf8b90e7a9a5b3cb8f</Guid>
@@ -768,9 +771,9 @@
               <Name>Text5</Name>
               <Page isRef="5" />
               <Parent isRef="6" />
-              <Text>{Table0.So_Ct}</Text>
+              <Text>{Table0.So_Ro}</Text>
               <TextBrush>Black</TextBrush>
-              <Type>Expression</Type>
+              <Type>DataColumn</Type>
               <VertAlignment>Center</VertAlignment>
             </Text5>
             <Text1 Ref="39" type="Text" isKey="true">
@@ -7002,10 +7005,10 @@
     <value>Stimulsoft.Report.Dll</value>
   </ReferencedAssemblies>
   <ReportAlias>Bằng chữ :</ReportAlias>
-  <ReportChanged>9/26/2026 10:14:34 AM</ReportChanged>
+  <ReportChanged>10/9/2026 1:56:52 PM</ReportChanged>
   <ReportCreated>1/13/2017 10:44:54 AM</ReportCreated>
-  <ReportFile>D:\Cyber\VINFAST_OMODA_QuangNgai\Repo\HDK01_TMV.mrt</ReportFile>
-  <ReportGuid>b93f80e86c8d4c3c9dcf810010a79bdc</ReportGuid>
+  <ReportFile>D:\1.CongViec\1.Cybersoft\1.Winform\1.BanGolive\2.FolderPhanMem\VINFAST_OMODA_QuangNgai\Repo\HDK01_TMV.mrt</ReportFile>
+  <ReportGuid>1e310d24a01a4c08b32e9daf61259680</ReportGuid>
   <ReportImage isNull="true" />
   <ReportName>Bằng chữ :</ReportName>
   <ReportUnit>Inches</ReportUnit>
