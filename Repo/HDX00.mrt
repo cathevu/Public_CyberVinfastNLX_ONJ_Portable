@@ -6,7 +6,8 @@
     <DataSources isList="true" count="7">
       <Table0 Ref="2" type="DataTableSource" isKey="true">
         <Alias>Table0</Alias>
-        <Columns isList="true" count="197">
+        <Columns isList="true" count="226">
+          <value>M_Title,System.String</value>
           <value>Ma_Dvcs,System.String</value>
           <value>Stt_Rec,System.String</value>
           <value>Ma_Ct,System.String</value>
@@ -16,6 +17,7 @@
           <value>Ma_Quyen,System.String</value>
           <value>Ngay_Ct,System.DateTime</value>
           <value>Ngay_Lct,System.DateTime</value>
+          <value>Ngay_CSBH,System.DateTime</value>
           <value>Huy,System.Decimal</value>
           <value>Ma_LOA,System.String</value>
           <value>So_Ct,System.String</value>
@@ -63,6 +65,7 @@
           <value>Fax_MG,System.String</value>
           <value>E_Mail_MG,System.String</value>
           <value>TL_TT,System.Decimal</value>
+          <value>Ma_LoaiKH,System.String</value>
           <value>Ty_Gia,System.Decimal</value>
           <value>T_Tien,System.Decimal</value>
           <value>T_Tien_NT,System.Decimal</value>
@@ -135,6 +138,8 @@
           <value>Ngay_CMT_UQ,System.DateTime</value>
           <value>DC_NG_UQ,System.String</value>
           <value>Ma_HD_Old,System.String</value>
+          <value>Ma_GoiBaoHanh,System.String</value>
+          <value>Ma_SKBH,System.String</value>
           <value>Ten_Hs_H,System.String</value>
           <value>Tel_HS,System.String</value>
           <value>Email_Hs,System.String</value>
@@ -176,6 +181,30 @@
           <value>Dien_ThoaiDL,System.String</value>
           <value>StrUQ,System.String</value>
           <value>So_HDMG,System.String</value>
+          <value>Ten_TTCP_H,System.String</value>
+          <value>Ten_Cty,System.String</value>
+          <value>Dai_Dien_Cty,System.String</value>
+          <value>Ma_So_Thue_Cty,System.String</value>
+          <value>T_Dai_Ly_KM,System.Decimal</value>
+          <value>Dai_Ly_KM,System.Decimal</value>
+          <value>Dai_Ly_KM_STR,System.String</value>
+          <value>T_Tien_Con_Lai,System.Decimal</value>
+          <value>Dia_Chi_Cty,System.String</value>
+          <value>Dien_Thoai_Cty,System.String</value>
+          <value>Tieu_De1,System.String</value>
+          <value>Du_Lieu1,System.String</value>
+          <value>Tieu_De2,System.String</value>
+          <value>Du_Lieu2,System.String</value>
+          <value>Tieu_De3,System.String</value>
+          <value>Du_Lieu3,System.String</value>
+          <value>Ten_Giay_To,System.String</value>
+          <value>Ngay_Cap_GiayTo,System.String</value>
+          <value>Noi_Cap_GiayTo,System.String</value>
+          <value>Nguoi_Dai_Dien,System.String</value>
+          <value>Chuc_Vu_DDL,System.String</value>
+          <value>Str_Giay_To,System.String</value>
+          <value>Text_VF3,System.String</value>
+          <value>Duyet,System.String</value>
           <value>Gop_Nv,System.Int32</value>
           <value>Thue_Nv,System.Int32</value>
           <value>Ngay_Cuoi_Thang1,System.DateTime</value>
@@ -183,10 +212,16 @@
           <value>Ngay_hien_Tai,System.String</value>
           <value>Ngay_HD,System.String</value>
           <value>StrNgay_HD,System.String</value>
+          <value>Ngay_Gx_STR,System.String</value>
           <value>Bang_ChuGoc,System.String</value>
           <value>Bang_Chu,System.String</value>
           <value>Bang_chu_CK,System.String</value>
           <value>Bang_Chu_GT1,System.String</value>
+          <value>Bang_Chu_GT2,System.String</value>
+          <value>Bang_Chu_GT3,System.String</value>
+          <value>Bang_Chu_T_Tien_NH,System.String</value>
+          <value>Bang_Chu_Tien_Con_Lai,System.String</value>
+          <value>Bang_Chu_Dai_Ly_KM,System.String</value>
           <value>Bang_Chu_Km_PK,System.String</value>
           <value>Bang_Chu_Km_BH,System.String</value>
           <value>Bang_Chu_Km_Khac,System.String</value>
@@ -198,12 +233,6 @@
           <value>Bang_Chu_Thu_Them,System.String</value>
           <value>Bang_Chu_MG,System.String</value>
           <value>Bang_Chu_T_Moi_Gioi_HDMG,System.String</value>
-          <value>Dien_Thoai_Cty,System.String</value>
-          <value>Dia_Chi_Cty,System.String</value>
-          <value>Ma_So_Thue_Cty,System.String</value>
-          <value>TP_Cty,System.String</value>
-          <value>Quan_Cty,System.String</value>
-          <value>Xa_Cty,System.String</value>
         </Columns>
         <Dictionary isRef="1" />
         <Name>Table0</Name>
@@ -211,19 +240,24 @@
       </Table0>
       <Table1 Ref="3" type="DataTableSource" isKey="true">
         <Alias>Table1</Alias>
-        <Columns isList="true" count="65">
+        <Columns isList="true" count="71">
           <value>Stt,System.Int64</value>
           <value>Stt_STR,System.String</value>
           <value>Stt_Rec0,System.String</value>
           <value>Ma_TD3,System.String</value>
           <value>Ma_Kx,System.String</value>
           <value>Ten_Kx,System.String</value>
+          <value>Nh_Kx2,System.String</value>
+          <value>Thang_BaoHanh,System.String</value>
+          <value>So_Km_BaoHanh,System.String</value>
           <value>Ma_Mau,System.String</value>
           <value>Ten_Mau,System.String</value>
           <value>Ma_Mau_NT,System.String</value>
           <value>Ten_Mau_Nt,System.String</value>
           <value>SL,System.Decimal</value>
           <value>SL_STR,System.String</value>
+          <value>Ma_CSBH,System.String</value>
+          <value>Ten_CSBH,System.String</value>
           <value>GT1,System.Decimal</value>
           <value>Gia_NY,System.Decimal</value>
           <value>Ck,System.Decimal</value>
@@ -277,6 +311,7 @@
           <value>PK_KM_PPK,System.Decimal</value>
           <value>BH_KM_PPK,System.Decimal</value>
           <value>Khac_KM_PPK,System.Decimal</value>
+          <value>Tien_Con_Lai,System.Decimal</value>
         </Columns>
         <Dictionary isRef="1" />
         <Name>Table1</Name>
@@ -284,7 +319,7 @@
       </Table1>
       <Table2 Ref="4" type="DataTableSource" isKey="true">
         <Alias>Table2</Alias>
-        <Columns isList="true" count="37">
+        <Columns isList="true" count="36">
           <value>Stt,System.Int64</value>
           <value>Stt_Rec,System.String</value>
           <value>Stt_Rec0,System.String</value>
@@ -316,7 +351,6 @@
           <value>Ma_TD4_I,System.String</value>
           <value>Ma_TD5_I,System.String</value>
           <value>Sl_TD_I,System.Decimal</value>
-          <value>Ma_KX,System.String</value>
           <value>Ghi_Chu_i,System.String</value>
           <value>Ten_Pk,System.String</value>
           <value>Thue,System.Decimal</value>
@@ -436,7 +470,7 @@
       <Components isList="true" count="23">
         <PageFooterBand1 Ref="10" type="PageFooterBand" isKey="true">
           <Brush>Transparent</Brush>
-          <ClientRectangle>0,13.45,7.87,0.1</ClientRectangle>
+          <ClientRectangle>0,15.71,7.87,0.1</ClientRectangle>
           <Components isList="true" count="0" />
           <Conditions isList="true" count="0" />
           <Guid>6ec2a5950a7045c59132f2c0a07c1064</Guid>
@@ -458,8 +492,9 @@
               <Name>Text1</Name>
               <Page isRef="9" />
               <Parent isRef="11" />
-              <Text>{M_TITLE1}</Text>
+              <Text>{Table0.M_Title}</Text>
               <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
               <VertAlignment>Center</VertAlignment>
             </Text1>
             <Text2 Ref="13" type="Text" isKey="true">
@@ -2233,6 +2268,7 @@
               <VertAlignment>Center</VertAlignment>
             </Text99>
             <Text100 Ref="153" type="Text" isKey="true">
+              <AllowHtmlTags>True</AllowHtmlTags>
               <Brush>Transparent</Brush>
               <CanGrow>True</CanGrow>
               <ClientRectangle>0.1,2.9,7.7,0.3</ClientRectangle>
@@ -2246,6 +2282,7 @@
               <Text>Khuyến mại: {Table0.ND_CTKM}</Text>
               <TextBrush>Black</TextBrush>
               <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
+              <TextQuality>Wysiwyg</TextQuality>
               <Type>Expression</Type>
               <VertAlignment>Center</VertAlignment>
             </Text100>
@@ -3752,10 +3789,10 @@
     <value>Stimulsoft.Report.Dll</value>
   </ReferencedAssemblies>
   <ReportAlias>Report</ReportAlias>
-  <ReportChanged>6/15/2026 2:14:19 PM</ReportChanged>
+  <ReportChanged>10/16/2026 3:15:10 PM</ReportChanged>
   <ReportCreated>1/11/2017 11:57:33 AM</ReportCreated>
-  <ReportFile>D:\1.CongViec\1.Cybersoft\1.Winform\1.BanGolive\2.FolderPhanMem\ADF_2025\Repo\HDX00.mrt</ReportFile>
-  <ReportGuid>20f8ba08d72e4f6a881e294edd2a1fce</ReportGuid>
+  <ReportFile>D:\1.CongViec\1.Cybersoft\1.Winform\1.BanGolive\2.FolderPhanMem\VINFAST_OMODA_QuangNgai\Repo\HDX00.mrt</ReportFile>
+  <ReportGuid>56f694edb83448ef9495dbca9b0b7bab</ReportGuid>
   <ReportImage isNull="true" />
   <ReportName>Report</ReportName>
   <ReportUnit>Inches</ReportUnit>
