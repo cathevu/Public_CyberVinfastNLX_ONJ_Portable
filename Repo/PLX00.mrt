@@ -13,7 +13,6 @@
           <value>Ma_Ct,System.String</value>
           <value>Ma_GD,System.String</value>
           <value>Ma_Post,System.String</value>
-          <value>Ma_NT,System.String</value>
           <value>Ma_Quyen,System.String</value>
           <value>Ngay_Ct,System.DateTime</value>
           <value>Ngay_Lct,System.DateTime</value>
@@ -24,14 +23,16 @@
           <value>Ma_Hs_H,System.String</value>
           <value>Ma_BP_H,System.String</value>
           <value>Ma_HD_H,System.String</value>
-          <value>Ma_TD3_H,System.String</value>
-          <value>Ty_Gia,System.Decimal</value>
-          <value>User_Id,System.Decimal</value>
+          <value>Ma_HD_KH,System.String</value>
           <value>ND_CTKM,System.String</value>
           <value>Dien_Giai_H,System.String</value>
           <value>Can_Cu,System.String</value>
           <value>Ma_SKBH,System.String</value>
           <value>Ma_LoaiKH,System.String</value>
+          <value>Stt_Rec_HDX,System.String</value>
+          <value>Ma_NT,System.String</value>
+          <value>Ty_Gia,System.Decimal</value>
+          <value>User_Id,System.Decimal</value>
           <value>Ten_Hs_H,System.String</value>
           <value>Tel_HS,System.String</value>
           <value>Email_Hs,System.String</value>
@@ -102,7 +103,6 @@
           <value>Ma_Xa,System.String</value>
           <value>Ten_Kh,System.String</value>
           <value>Dia_Chi,System.String</value>
-          <value>Ma_HD_KH,System.String</value>
           <value>Cv_Ky_KD,System.String</value>
           <value>DT_Lx,System.String</value>
           <value>E_Mail,System.String</value>
@@ -457,7 +457,7 @@
               <Name>Text6</Name>
               <Page isRef="9" />
               <Parent isRef="15" />
-              <Text>Số: {Table0.Ma_HD_KH}</Text>
+              <Text>Số: {Table0.So_Ct}</Text>
               <TextBrush>Black</TextBrush>
               <Type>Expression</Type>
               <VertAlignment>Center</VertAlignment>
@@ -1536,7 +1536,7 @@ Các thông số kỹ thuật: Theo tiêu chuẩn của Nhà sản xuất &lt;br
         <ReportSummaryBand2 Ref="126" type="ReportSummaryBand" isKey="true">
           <Brush>Transparent</Brush>
           <CanBreak>True</CanBreak>
-          <ClientRectangle>0,4,178.3,150</ClientRectangle>
+          <ClientRectangle>0,4,178.3,134</ClientRectangle>
           <Components isList="true" count="18">
             <Text93 Ref="127" type="Text" isKey="true">
               <Brush>Transparent</Brush>
@@ -1706,7 +1706,7 @@ Phụ lục hợp đồng được lập thành bốn (04) bản bằng tiếng 
             <Text2 Ref="136" type="Text" isKey="true">
               <AllowHtmlTags>True</AllowHtmlTags>
               <Brush>Transparent</Brush>
-              <ClientRectangle>16,144,58,6</ClientRectangle>
+              <ClientRectangle>18,128,58,6</ClientRectangle>
               <Conditions isList="true" count="0" />
               <Font>Times New Roman,12,Bold</Font>
               <Guid>fcb63e3bc96147a997c4500b47c3ceb4</Guid>
@@ -1724,7 +1724,7 @@ Phụ lục hợp đồng được lập thành bốn (04) bản bằng tiếng 
             <Text3 Ref="137" type="Text" isKey="true">
               <AllowHtmlTags>True</AllowHtmlTags>
               <Brush>Transparent</Brush>
-              <ClientRectangle>102,144,58,6</ClientRectangle>
+              <ClientRectangle>104,128,58,6</ClientRectangle>
               <Conditions isList="true" count="0" />
               <Font>Times New Roman,12,Bold</Font>
               <Guid>257f7b25719a4abd969b681f24bc484b</Guid>
@@ -1884,10 +1884,10 @@ Phụ lục hợp đồng được lập thành bốn (04) bản bằng tiếng 
     <value>Stimulsoft.Report.Dll</value>
   </ReferencedAssemblies>
   <ReportAlias>Report</ReportAlias>
-  <ReportChanged>10/21/2026 11:08:24 AM</ReportChanged>
+  <ReportChanged>10/21/2026 3:15:19 PM</ReportChanged>
   <ReportCreated>1/11/2017 11:57:33 AM</ReportCreated>
-  <ReportFile>D:\Cyber\VINFAST_OMODA_QuangNgai\Repo\PLX00.mrt</ReportFile>
-  <ReportGuid>5331fa6071a84272817382341469dd94</ReportGuid>
+  <ReportFile>D:\1.CongViec\1.Cybersoft\1.Winform\1.BanGolive\2.FolderPhanMem\VINFAST_OMODA_QuangNgai\Repo\PLX00.mrt</ReportFile>
+  <ReportGuid>6d1b51c33d0041e4a9af10fa926bee9b</ReportGuid>
   <ReportImage isNull="true" />
   <ReportName>Report</ReportName>
   <ReportUnit>Millimeters</ReportUnit>
