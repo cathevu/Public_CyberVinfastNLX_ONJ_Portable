@@ -6,7 +6,7 @@
     <DataSources isList="true" count="3">
       <Table0 Ref="2" type="DataTableSource" isKey="true">
         <Alias>Table0</Alias>
-        <Columns isList="true" count="218">
+        <Columns isList="true" count="223">
           <value>Ma_Dvcs,System.String</value>
           <value>Stt_Rec,System.String</value>
           <value>Ma_Ct,System.String</value>
@@ -123,6 +123,7 @@
           <value>Ma_PTLH,System.String</value>
           <value>Noi_Bo,System.Decimal</value>
           <value>ND_CTKM,System.String</value>
+          <value>ND_CTKM_GOC,System.String</value>
           <value>Ma_CTV,System.String</value>
           <value>Ngay_Huy,System.DateTime</value>
           <value>Bao_Hanh,System.String</value>
@@ -139,6 +140,8 @@
           <value>Ma_HD_Old,System.String</value>
           <value>Ma_GoiBaoHanh,System.String</value>
           <value>Ma_SKBH,System.String</value>
+          <value>Stt_Rec_PL,System.String</value>
+          <value>Is_TruKM,System.Decimal</value>
           <value>Ten_Hs_H,System.String</value>
           <value>Tel_HS,System.String</value>
           <value>Email_Hs,System.String</value>
@@ -204,6 +207,8 @@
           <value>Str_Giay_To,System.String</value>
           <value>Text_VF3,System.String</value>
           <value>Duyet,System.String</value>
+          <value>T_PhaiThu_KH,System.Decimal</value>
+          <value>T_Ck_KHD,System.Decimal</value>
           <value>Ngay_Cuoi_Thang1,System.DateTime</value>
           <value>Ngay_Het_Han_HD,System.String</value>
           <value>Ngay_Hien_Tai,System.String</value>
@@ -1132,6 +1137,7 @@ lượng</Text>
               <AllowHtmlTags>True</AllowHtmlTags>
               <Brush>Transparent</Brush>
               <CanGrow>True</CanGrow>
+              <CanShrink>True</CanShrink>
               <ClientRectangle>0.4,0,3.2,1.3</ClientRectangle>
               <Conditions isList="true" count="0" />
               <Font>Times New Roman,12</Font>
@@ -1141,7 +1147,7 @@ lượng</Text>
               <Page isRef="5" />
               <Parent isRef="62" />
               <Text>&lt;b&gt;{Table1.Ten_Kx}&lt;/b&gt; &lt;br&gt;
-Màu: &lt;b&gt;{Table1.Ten_Mau}&lt;/b&gt; &lt;br&gt;
+Màu: &lt;b&gt;{Table1.Ten_Mau}&lt;/b&gt; Năm SX: &lt;b&gt;{Table1.Nam_Sx}&lt;/b&gt;&lt;br&gt;
 Số khung : {Table1.So_Khung} &lt;br&gt;
 Tình trạng : Mới 100% &lt;br&gt;
 Các thông số kỹ thuật: Theo tiêu chuẩn của Nhà sản xuất &lt;br&gt;
@@ -3893,10 +3899,10 @@ Các thông số kỹ thuật: Theo tiêu chuẩn của Nhà sản xuất &lt;br
     <value>Stimulsoft.Report.Dll</value>
   </ReferencedAssemblies>
   <ReportAlias>Report</ReportAlias>
-  <ReportChanged>10/14/2026 10:59:23 AM</ReportChanged>
+  <ReportChanged>10/29/2026 2:53:32 PM</ReportChanged>
   <ReportCreated>1/11/2017 3:48:09 PM</ReportCreated>
   <ReportFile>D:\Cyber\VINFAST_OMODA_QuangNgai\Repo\HDX10_VF.mrt</ReportFile>
-  <ReportGuid>f20ac1d403f7490b8e60a27f2585f1ab</ReportGuid>
+  <ReportGuid>dec1724588e248a59bec0028b1d89620</ReportGuid>
   <ReportImage isNull="true" />
   <ReportName>Report</ReportName>
   <ReportUnit>Inches</ReportUnit>

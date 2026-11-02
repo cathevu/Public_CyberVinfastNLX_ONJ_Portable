@@ -6,8 +6,7 @@
     <DataSources isList="true" count="7">
       <Table0 Ref="2" type="DataTableSource" isKey="true">
         <Alias>Table0</Alias>
-        <Columns isList="true" count="152">
-          <value>Ong_Ba,System.String</value>
+        <Columns isList="true" count="151">
           <value>M_Title,System.String</value>
           <value>Ma_Dvcs,System.String</value>
           <value>Stt_Rec,System.String</value>
@@ -120,7 +119,7 @@
           <value>Str_Giay_To,System.String</value>
           <value>Text_VF3,System.String</value>
           <value>Duyet,System.String</value>
-          <value>Ong_Ba1,System.String</value>
+          <value>Ong_Ba,System.String</value>
           <value>Ma_TP,System.String</value>
           <value>Ma_Xa,System.String</value>
           <value>Ten_Kh,System.String</value>
@@ -1264,7 +1263,7 @@ Các thông số kỹ thuật: Theo tiêu chuẩn của Nhà sản xuất &lt;br
               <Name>Text85</Name>
               <Page isRef="9" />
               <Parent isRef="81" />
-              <Text>Thanh toán bằng tiền mặt hoặc chuyển khoản. Sau khi trừ đi phần giá trị khuyến mãi bằng tiền mặt (nếu có) tại Khoản 1.2 Điều này thì số tiền khách hàng còn phải thanh toán là &lt;b&gt; {Format("{0:N0}",Table0.T_TT)} VNĐ &lt;/b&gt; (&lt;i&gt; Bằng chữ: {Table0.Bang_ChuGoc}&lt;/i&gt;).</Text>
+              <Text>Thanh toán bằng tiền mặt hoặc chuyển khoản. Sau khi trừ đi phần giá trị khuyến mãi bằng tiền mặt (nếu có) tại Khoản 1.2 Điều này thì số tiền khách hàng còn phải thanh toán là &lt;b&gt; {Format("{0:N0}",Table0.T_TT)} VNĐ &lt;/b&gt; (&lt;i&gt; Bằng chữ: {Table0.Bang_Chu}&lt;/i&gt;).</Text>
               <TextBrush>Black</TextBrush>
               <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
               <TextQuality>Wysiwyg</TextQuality>
@@ -1865,10 +1864,10 @@ Phụ lục hợp đồng được lập thành bốn (04) bản bằng tiếng 
     <value>Stimulsoft.Report.Dll</value>
   </ReferencedAssemblies>
   <ReportAlias>Report</ReportAlias>
-  <ReportChanged>10/22/2026 3:59:00 PM</ReportChanged>
+  <ReportChanged>10/29/2026 2:02:57 PM</ReportChanged>
   <ReportCreated>1/11/2017 11:57:33 AM</ReportCreated>
   <ReportFile>D:\Cyber\VINFAST_OMODA_QuangNgai\Repo\PLX00.mrt</ReportFile>
-  <ReportGuid>a53597af3b424e84883e403e954e3caf</ReportGuid>
+  <ReportGuid>e5a590719b4c44b4948f24f78f2741a2</ReportGuid>
   <ReportImage isNull="true" />
   <ReportName>Report</ReportName>
   <ReportUnit>Millimeters</ReportUnit>
